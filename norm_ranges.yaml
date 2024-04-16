@@ -1,0 +1,38 @@
+ranges:
+  physical:
+    height: [65, 78]
+    weight: [175, 235]
+    hands: [8, 11]
+    arm: [27, 34]
+    span: [68.5, 83]
+  combine:
+    40yd: [4.2,4.93]
+    10yd: [1.45, 1.65]
+    shuttle: [3.93, 4.6]
+    vertical: [29, 42]
+    broad: [114, 136]
+    3cone: [6.5, 7.5]
+  stats:
+    college:
+      yac_rec: [0, 9]
+      yds_rr: [0, 3.6]
+      aDoT: [3, 25]
+      drop_pct: [0, 20]
+      ctc_pct: [0, 100]
+      pass_rating:: [20, 156.5]
+      sos: [-16, 16]
+      pff:
+        recv: [45, 92]
+        drop: [25, 92]
+        fum: [10, 92]
+    nfl:
+      pff:
+        recv: [45, 92]
+      ftn:
+        dyar: [-230,745]
+        dvoa: [-77,150]
+      catch_pct: [45, 90]
+      yds_rr: [0.56, 4.05]
+      yac_rec: [1.21, 8.75]
+      yptoe: [-4.4, 5.9]
+      xfp_rr: [0.16, 0.72]
