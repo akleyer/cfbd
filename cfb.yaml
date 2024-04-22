@@ -88,50 +88,6 @@ players:
       yptoe: 2.4
       xfp_rr: 0.49
 - general:
-    name: Dontayvion Wicks
-    position: WR
-    team: VIR
-  physical:
-    height: 73.0
-    weight: 206.0
-    hands: 10.0
-    arm: 32.375
-    span: 79.875
-  combine:
-    40yd: 4.62
-    10yd: 1.59
-    shuttle: 4.2
-    vertical: 39.0
-    broad: 130.0
-    3cone: 6.91
-  stats:
-    college:
-    - yac_rec: 4.6
-      yds_rr: 2.35
-      aDoT: 16.5
-      drop_pct: 15.6
-      ctc_pct: 36.55
-      pass_rating: 93.95
-      sos: -0.3
-      pff:
-        recv: 69.6
-        drop: 42.75
-        fum: 30.0
-    nfl:
-    - pff:
-        recv: 77.8
-      ftn:
-        dyar: 194.0
-        dvoa: 27.7
-      catch_pct: 67.2
-      rr: 252.0
-      yards: 581.0
-      yds_rr: 2.31
-      av: 6.0
-      yac_rec: 5.69
-      yptoe: 1.9
-      xfp_rr: 0.42
-- general:
     name: Nathaniel Dell
     position: WR
     team: HOU
@@ -176,93 +132,49 @@ players:
       yptoe: 0.4
       xfp_rr: 0.48
 - general:
-    name: Jayden Reed
+    name: Dontayvion Wicks
     position: WR
-    team: MST
+    team: VIR
   physical:
-    height: 71.0
-    weight: 187.0
-    hands: 9.125
-    arm: 30.5
-    span: 73.125
+    height: 73.0
+    weight: 206.0
+    hands: 10.0
+    arm: 32.375
+    span: 79.875
   combine:
-    40yd: 4.45
-    10yd: 1.57
-    shuttle: 4.29
-    vertical: 33.5
-    broad: 121.0
-    3cone: null
+    40yd: 4.62
+    10yd: 1.59
+    shuttle: 4.2
+    vertical: 39.0
+    broad: 130.0
+    3cone: 6.91
   stats:
     college:
-    - yac_rec: 5.25
-      yds_rr: 2.335
-      aDoT: 12.7
-      drop_pct: 9.3
-      ctc_pct: 64.7
-      pass_rating: 103.1
-      sos: 7.1
+    - yac_rec: 4.6
+      yds_rr: 2.35
+      aDoT: 16.5
+      drop_pct: 15.6
+      ctc_pct: 36.55
+      pass_rating: 93.95
+      sos: -0.3
       pff:
-        recv: 76.95
-        drop: 62.7
-        fum: 65.75
+        recv: 69.6
+        drop: 42.75
+        fum: 30.0
     nfl:
     - pff:
-        recv: 73.3
+        recv: 77.8
       ftn:
-        dyar: 167.0
-        dvoa: 9.7
-      catch_pct: 68.1
-      rr: 356.0
-      yards: 793.0
-      yds_rr: 2.23
-      av: 9.0
-      yac_rec: 5.48
-      yptoe: 0.8
-      xfp_rr: 0.5
-- general:
-    name: Demario Douglas
-    position: WR
-    team: LIBRTY
-  physical:
-    height: 68.0
-    weight: 179.0
-    hands: 8.75
-    arm: 30.25
-    span: 72.5
-  combine:
-    40yd: 4.44
-    10yd: 1.54
-    shuttle: 4.29
-    vertical: 39.5
-    broad: 134.0
-    3cone: 7.05
-  stats:
-    college:
-    - yac_rec: 6.4
-      yds_rr: 2.63
-      aDoT: 13.0
-      drop_pct: 5.4
-      ctc_pct: 46.2
-      pass_rating: 88.6
-      sos: -6.9
-      pff:
-        recv: 86.2
-        drop: 74.7
-        fum: 71.2
-    nfl:
-    - pff:
-        recv: 74.4
-      ftn:
-        dyar: -43.0
-        dvoa: -19.7
-      catch_pct: 62.8
-      rr: 312.0
-      yards: 561.0
-      yds_rr: 1.8
-      av: 4.0
-      yac_rec: 6.98
-      yptoe: -0.3
-      xfp_rr: 0.44
+        dyar: 194.0
+        dvoa: 27.7
+      catch_pct: 67.2
+      rr: 252.0
+      yards: 581.0
+      yds_rr: 2.31
+      av: 6.0
+      yac_rec: 5.69
+      yptoe: 1.9
+      xfp_rr: 0.42
 - general:
     name: Zay Flowers
     position: WR
@@ -308,49 +220,49 @@ players:
       yptoe: 0.4
       xfp_rr: 0.38
 - general:
-    name: Josh Downs
+    name: Demario Douglas
     position: WR
-    team: NCAR
+    team: LIBRTY
   physical:
-    height: 69.0
-    weight: 171.0
-    hands: 9.25
-    arm: 30.375
-    span: 73.375
+    height: 68.0
+    weight: 179.0
+    hands: 8.75
+    arm: 30.25
+    span: 72.5
   combine:
-    40yd: 4.48
-    10yd: 1.49
-    shuttle: 4.15
-    vertical: 38.5
-    broad: 131.0
-    3cone: 6.75
+    40yd: 4.44
+    10yd: 1.54
+    shuttle: 4.29
+    vertical: 39.5
+    broad: 134.0
+    3cone: 7.05
   stats:
     college:
-    - yac_rec: 4.0
-      yds_rr: 2.16
-      aDoT: 8.9
-      drop_pct: 3.5
-      ctc_pct: 75.0
-      pass_rating: 139.1
-      sos: 3.6
+    - yac_rec: 6.4
+      yds_rr: 2.63
+      aDoT: 13.0
+      drop_pct: 5.4
+      ctc_pct: 46.2
+      pass_rating: 88.6
+      sos: -6.9
       pff:
-        recv: 86.1
-        drop: 86.3
-        fum: 66.3
+        recv: 86.2
+        drop: 74.7
+        fum: 71.2
     nfl:
     - pff:
-        recv: 70.3
+        recv: 74.4
       ftn:
-        dyar: 78.0
-        dvoa: -2.1
-      catch_pct: 69.4
-      rr: 439.0
-      yards: 771.0
-      yds_rr: 1.76
-      av: 7.0
-      yac_rec: 5.49
-      yptoe: 0.9
-      xfp_rr: 0.38
+        dyar: -43.0
+        dvoa: -19.7
+      catch_pct: 62.8
+      rr: 312.0
+      yards: 561.0
+      yds_rr: 1.8
+      av: 4.0
+      yac_rec: 6.98
+      yptoe: -0.3
+      xfp_rr: 0.44
 - general:
     name: Jake Bobo
     position: WR
@@ -396,49 +308,93 @@ players:
       yptoe: 1.0
       xfp_rr: 0.37
 - general:
-    name: Marvin Mims Jr.
+    name: Jayden Reed
     position: WR
-    team: OKL
+    team: MST
   physical:
     height: 71.0
-    weight: 183.0
-    hands: 9.0
-    arm: 31.625
-    span: 74.75
+    weight: 187.0
+    hands: 9.125
+    arm: 30.5
+    span: 73.125
   combine:
-    40yd: 4.38
-    10yd: 1.55
-    shuttle: null
-    vertical: 39.5
-    broad: 129.0
-    3cone: 6.9
+    40yd: 4.45
+    10yd: 1.57
+    shuttle: 4.29
+    vertical: 33.5
+    broad: 121.0
+    3cone: null
   stats:
     college:
-    - yac_rec: 8.5
-      yds_rr: 2.71
-      aDoT: 16.3
-      drop_pct: 7.1
-      ctc_pct: 50.0
-      pass_rating: 122.4
-      sos: 8.9
+    - yac_rec: 5.25
+      yds_rr: 2.335
+      aDoT: 12.7
+      drop_pct: 9.3
+      ctc_pct: 64.7
+      pass_rating: 103.1
+      sos: 7.1
       pff:
-        recv: 75.7
-        drop: 68.0
-        fum: 71.7
+        recv: 76.95
+        drop: 62.7
+        fum: 65.75
     nfl:
     - pff:
-        recv: 63.1
+        recv: 73.3
       ftn:
-        dyar: 82.0
-        dvoa: 19.7
-      catch_pct: 66.7
-      rr: 236.0
-      yards: 377.0
-      yds_rr: 1.6
-      av: 5.0
-      yac_rec: 7.0
-      yptoe: 2.7
-      xfp_rr: 0.28
+        dyar: 167.0
+        dvoa: 9.7
+      catch_pct: 68.1
+      rr: 356.0
+      yards: 793.0
+      yds_rr: 2.23
+      av: 9.0
+      yac_rec: 5.48
+      yptoe: 0.8
+      xfp_rr: 0.5
+- general:
+    name: Josh Downs
+    position: WR
+    team: NCAR
+  physical:
+    height: 69.0
+    weight: 171.0
+    hands: 9.25
+    arm: 30.375
+    span: 73.375
+  combine:
+    40yd: 4.48
+    10yd: 1.49
+    shuttle: 4.15
+    vertical: 38.5
+    broad: 131.0
+    3cone: 6.75
+  stats:
+    college:
+    - yac_rec: 4.0
+      yds_rr: 2.16
+      aDoT: 8.9
+      drop_pct: 3.5
+      ctc_pct: 75.0
+      pass_rating: 139.1
+      sos: 3.6
+      pff:
+        recv: 86.1
+        drop: 86.3
+        fum: 66.3
+    nfl:
+    - pff:
+        recv: 70.3
+      ftn:
+        dyar: 78.0
+        dvoa: -2.1
+      catch_pct: 69.4
+      rr: 439.0
+      yards: 771.0
+      yds_rr: 1.76
+      av: 7.0
+      yac_rec: 5.49
+      yptoe: 0.9
+      xfp_rr: 0.38
 - general:
     name: Jordan Addison
     position: WR
@@ -528,94 +484,6 @@ players:
       yptoe: 0.5
       xfp_rr: 0.31
 - general:
-    name: Jaxon Smith-Njigba
-    position: WR
-    team: OHIOST
-  physical:
-    height: 73.0
-    weight: 196.0
-    hands: 9.0
-    arm: 30.5
-    span: 75.5
-  combine:
-    40yd: 4.52
-    10yd: 1.65
-    shuttle: 3.93
-    vertical: 35.0
-    broad: 125.0
-    3cone: 6.57
-  stats:
-    college:
-    - yac_rec: 7.6
-      yds_rr: 3.56
-      aDoT: 8.8
-      drop_pct: 7.0
-      ctc_pct: 100.0
-      pass_rating: 135.2
-      sos: 14.7
-      pff:
-        recv: 90.2
-        drop: 73.8
-        fum: 81.1
-    nfl:
-    - pff:
-        recv: 63.3
-      ftn:
-        dyar: 25.0
-        dvoa: -9.2
-      catch_pct: 67.7
-      rr: 452.0
-      yards: 628.0
-      yds_rr: 1.39
-      av: 6.0
-      yac_rec: 5.89
-      yptoe: -0.3
-      xfp_rr: 0.35
-- general:
-    name: A.T. Perry
-    position: WR
-    team: WAKE
-  physical:
-    height: 76.0
-    weight: 198.0
-    hands: 9.25
-    arm: 33.25
-    span: 82.625
-  combine:
-    40yd: 4.47
-    10yd: 1.59
-    shuttle: 4.32
-    vertical: 35.0
-    broad: 133.0
-    3cone: 6.81
-  stats:
-    college:
-    - yac_rec: 2.0
-      yds_rr: 2.5
-      aDoT: 14.9
-      drop_pct: 9.1
-      ctc_pct: 45.8
-      pass_rating: 108.6
-      sos: 4.0
-      pff:
-        recv: 80.8
-        drop: 66.2
-        fum: 75.4
-    nfl:
-    - pff:
-        recv: 61.0
-      ftn:
-        dyar: 125.0
-        dvoa: 74.0
-      catch_pct: 66.7
-      rr: 190.0
-      yards: 246.0
-      yds_rr: 1.29
-      av: 2.0
-      yac_rec: 1.92
-      yptoe: 3.8
-      xfp_rr: 0.23
-- general:
     name: Tre Tucker
     position: WR
     team: CIN
@@ -660,93 +528,137 @@ players:
       yptoe: -0.4
       xfp_rr: 0.31
 - general:
-    name: Quentin Johnston
+    name: Jaxon Smith-Njigba
     position: WR
-    team: TCU
+    team: OHIOST
   physical:
-    height: 75.0
-    weight: 208.0
-    hands: 9.625
-    arm: 33.625
-    span: 81.625
+    height: 73.0
+    weight: 196.0
+    hands: 9.0
+    arm: 30.5
+    span: 75.5
   combine:
     40yd: 4.52
-    10yd: 1.59
-    shuttle: 4.28
-    vertical: 40.5
-    broad: 134.0
-    3cone: 7.31
+    10yd: 1.65
+    shuttle: 3.93
+    vertical: 35.0
+    broad: 125.0
+    3cone: 6.57
   stats:
     college:
     - yac_rec: 7.6
-      yds_rr: 2.86
-      aDoT: 12.2
-      drop_pct: 14.0
-      ctc_pct: 44.4
-      pass_rating: 105.9
-      sos: 12.3
+      yds_rr: 3.56
+      aDoT: 8.8
+      drop_pct: 7.0
+      ctc_pct: 100.0
+      pass_rating: 135.2
+      sos: 14.7
       pff:
-        recv: 77.5
-        drop: 49.2
-        fum: 74.3
+        recv: 90.2
+        drop: 73.8
+        fum: 81.1
     nfl:
     - pff:
-        recv: 58.9
+        recv: 63.3
       ftn:
-        dyar: 23.0
-        dvoa: -8.6
-      catch_pct: 56.7
-      rr: 451.0
-      yards: 431.0
-      yds_rr: 0.96
-      av: 4.0
-      yac_rec: 3.95
-      yptoe: -2.4
-      xfp_rr: 0.3
+        dyar: 25.0
+        dvoa: -9.2
+      catch_pct: 67.7
+      rr: 452.0
+      yards: 628.0
+      yds_rr: 1.39
+      av: 6.0
+      yac_rec: 5.89
+      yptoe: -0.3
+      xfp_rr: 0.35
 - general:
-    name: Xavier Gipson
+    name: Marvin Mims Jr.
     position: WR
-    team: SFAUS
+    team: OKL
   physical:
-    height: 69.0
+    height: 71.0
     weight: 183.0
-    hands: 8.5
-    arm: 30.25
-    span: 70.625
+    hands: 9.0
+    arm: 31.625
+    span: 74.75
   combine:
-    40yd: 4.42
-    10yd: 1.46
-    shuttle: 4.07
-    vertical: 34.5
-    broad: 118.0
-    3cone: 6.88
+    40yd: 4.38
+    10yd: 1.55
+    shuttle: null
+    vertical: 39.5
+    broad: 129.0
+    3cone: 6.9
   stats:
     college:
-    - yac_rec: 10.3
-      yds_rr: 3.44
-      aDoT: 9.9
-      drop_pct: 4.4
-      ctc_pct: 18.2
-      pass_rating: 137.5
-      sos: -16.0
+    - yac_rec: 8.5
+      yds_rr: 2.71
+      aDoT: 16.3
+      drop_pct: 7.1
+      ctc_pct: 50.0
+      pass_rating: 122.4
+      sos: 8.9
       pff:
-        recv: 89.4
-        drop: 81.4
-        fum: 83.2
+        recv: 75.7
+        drop: 68.0
+        fum: 71.7
     nfl:
     - pff:
-        recv: 56.2
+        recv: 63.1
       ftn:
-        dyar: -46.0
-        dvoa: -29.4
-      catch_pct: 55.3
-      rr: 318.0
-      yards: 229.0
-      yds_rr: 0.72
-      av: 3.0
-      yac_rec: 5.43
-      yptoe: -1.4
-      xfp_rr: 0.21
+        dyar: 82.0
+        dvoa: 19.7
+      catch_pct: 66.7
+      rr: 236.0
+      yards: 377.0
+      yds_rr: 1.6
+      av: 5.0
+      yac_rec: 7.0
+      yptoe: 2.7
+      xfp_rr: 0.28
+- general:
+    name: A.T. Perry
+    position: WR
+    team: WAKE
+  physical:
+    height: 76.0
+    weight: 198.0
+    hands: 9.25
+    arm: 33.25
+    span: 82.625
+  combine:
+    40yd: 4.47
+    10yd: 1.59
+    shuttle: 4.32
+    vertical: 35.0
+    broad: 133.0
+    3cone: 6.81
+  stats:
+    college:
+    - yac_rec: 2.0
+      yds_rr: 2.5
+      aDoT: 14.9
+      drop_pct: 9.1
+      ctc_pct: 45.8
+      pass_rating: 108.6
+      sos: 4.0
+      pff:
+        recv: 80.8
+        drop: 66.2
+        fum: 75.4
+    nfl:
+    - pff:
+        recv: 61.0
+      ftn:
+        dyar: 125.0
+        dvoa: 74.0
+      catch_pct: 66.7
+      rr: 190.0
+      yards: 246.0
+      yds_rr: 1.29
+      av: 2.0
+      yac_rec: 1.92
+      yptoe: 3.8
+      xfp_rr: 0.23
 - general:
     name: Malik Heath
     position: WR
@@ -836,49 +748,137 @@ players:
       yptoe: -0.6
       xfp_rr: 0.22
 - general:
-    name: Trey Palmer
+    name: Quentin Johnston
     position: WR
-    team: NEBR
+    team: TCU
   physical:
-    height: 72.0
-    weight: 192.0
+    height: 75.0
+    weight: 208.0
     hands: 9.625
-    arm: 31.875
-    span: 76.125
+    arm: 33.625
+    span: 81.625
   combine:
-    40yd: 4.33
-    10yd: 1.51
-    shuttle: 4.26
-    vertical: 29.5
-    broad: 114.0
-    3cone: 7.13
+    40yd: 4.52
+    10yd: 1.59
+    shuttle: 4.28
+    vertical: 40.5
+    broad: 134.0
+    3cone: 7.31
   stats:
     college:
-    - yac_rec: 5.4
-      yds_rr: 3.26
-      aDoT: 13.5
-      drop_pct: 12.3
-      ctc_pct: 30.4
-      pass_rating: 103.7
-      sos: 2.0
+    - yac_rec: 7.6
+      yds_rr: 2.86
+      aDoT: 12.2
+      drop_pct: 14.0
+      ctc_pct: 44.4
+      pass_rating: 105.9
+      sos: 12.3
       pff:
-        recv: 83.6
-        drop: 54.0
-        fum: 64.4
+        recv: 77.5
+        drop: 49.2
+        fum: 74.3
     nfl:
     - pff:
-        recv: 53.3
+        recv: 58.9
       ftn:
-        dyar: -102.0
-        dvoa: -31.7
-      catch_pct: 57.4
-      rr: 427.0
-      yards: 385.0
-      yds_rr: 0.9
+        dyar: 23.0
+        dvoa: -8.6
+      catch_pct: 56.7
+      rr: 451.0
+      yards: 431.0
+      yds_rr: 0.96
       av: 4.0
-      yac_rec: 3.03
-      yptoe: -2.5
-      xfp_rr: 0.28
+      yac_rec: 3.95
+      yptoe: -2.4
+      xfp_rr: 0.3
+- general:
+    name: Xavier Gipson
+    position: WR
+    team: SFAUS
+  physical:
+    height: 69.0
+    weight: 183.0
+    hands: 8.5
+    arm: 30.25
+    span: 70.625
+  combine:
+    40yd: 4.42
+    10yd: 1.46
+    shuttle: 4.07
+    vertical: 34.5
+    broad: 118.0
+    3cone: 6.88
+  stats:
+    college:
+    - yac_rec: 10.3
+      yds_rr: 3.44
+      aDoT: 9.9
+      drop_pct: 4.4
+      ctc_pct: 18.2
+      pass_rating: 137.5
+      sos: -16.0
+      pff:
+        recv: 89.4
+        drop: 81.4
+        fum: 83.2
+    nfl:
+    - pff:
+        recv: 56.2
+      ftn:
+        dyar: -46.0
+        dvoa: -29.4
+      catch_pct: 55.3
+      rr: 318.0
+      yards: 229.0
+      yds_rr: 0.72
+      av: 3.0
+      yac_rec: 5.43
+      yptoe: -1.4
+      xfp_rr: 0.21
+- general:
+    name: Cedric Tillman
+    position: WR
+    team: TENN
+  physical:
+    height: 75.0
+    weight: 213.0
+    hands: 10.0
+    arm: 32.75
+    span: 79.25
+  combine:
+    40yd: 4.54
+    10yd: 1.53
+    shuttle: null
+    vertical: 37.0
+    broad: 128.0
+    3cone: 7.32
+  stats:
+    college:
+    - yac_rec: 4.0
+      yds_rr: 2.22
+      aDoT: 14.9
+      drop_pct: 5.0
+      ctc_pct: 55.0
+      pass_rating: 124.4
+      sos: 14.3
+      pff:
+        recv: 73.5
+        drop: 78.85
+        fum: 73.75
+    nfl:
+    - pff:
+        recv: 55.5
+      ftn:
+        dyar: -57.0
+        dvoa: -29.0
+      catch_pct: 47.7
+      rr: 328.0
+      yards: 224.0
+      yds_rr: 0.68
+      av: 2.0
+      yac_rec: 3.38
+      yptoe: -3.3
+      xfp_rr: 0.24
 - general:
     name: Jonathan Mingo
     position: WR
@@ -924,6 +924,50 @@ players:
       yptoe: -3.1
       xfp_rr: 0.26
 - general:
+    name: Trey Palmer
+    position: WR
+    team: NEBR
+  physical:
+    height: 72.0
+    weight: 192.0
+    hands: 9.625
+    arm: 31.875
+    span: 76.125
+  combine:
+    40yd: 4.33
+    10yd: 1.51
+    shuttle: 4.26
+    vertical: 29.5
+    broad: 114.0
+    3cone: 7.13
+  stats:
+    college:
+    - yac_rec: 5.4
+      yds_rr: 3.26
+      aDoT: 13.5
+      drop_pct: 12.3
+      ctc_pct: 30.4
+      pass_rating: 103.7
+      sos: 2.0
+      pff:
+        recv: 83.6
+        drop: 54.0
+        fum: 64.4
+    nfl:
+    - pff:
+        recv: 53.3
+      ftn:
+        dyar: -102.0
+        dvoa: -31.7
+      catch_pct: 57.4
+      rr: 427.0
+      yards: 385.0
+      yds_rr: 0.9
+      av: 4.0
+      yac_rec: 3.03
+      yptoe: -2.5
+      xfp_rr: 0.28
+- general:
     name: Tyler Scott
     position: WR
     team: CIN
@@ -967,50 +1011,6 @@ players:
       yac_rec: 4.0
       yptoe: -3.1
       xfp_rr: 0.25
-- general:
-    name: Cedric Tillman
-    position: WR
-    team: TENN
-  physical:
-    height: 75.0
-    weight: 213.0
-    hands: 10.0
-    arm: 32.75
-    span: 79.25
-  combine:
-    40yd: 4.54
-    10yd: 1.53
-    shuttle: null
-    vertical: 37.0
-    broad: 128.0
-    3cone: 7.32
-  stats:
-    college:
-    - yac_rec: 4.0
-      yds_rr: 2.22
-      aDoT: 14.9
-      drop_pct: 5.0
-      ctc_pct: 55.0
-      pass_rating: 124.4
-      sos: 14.3
-      pff:
-        recv: 73.5
-        drop: 78.85
-        fum: 73.75
-    nfl:
-    - pff:
-        recv: 55.5
-      ftn:
-        dyar: -57.0
-        dvoa: -29.0
-      catch_pct: 47.7
-      rr: 328.0
-      yards: 224.0
-      yds_rr: 0.68
-      av: 2.0
-      yac_rec: 3.38
-      yptoe: -3.3
-      xfp_rr: 0.24
 - general:
     name: Parker Washington
     position: WR
@@ -1162,119 +1162,31 @@ players:
     3cone: 7.03
   stats:
     college:
-    - yac_rec: 4.7
-      yds_rr: 1.85
-      aDoT: 11.0
-      drop_pct: 2.4
-      ctc_pct: 35.9
-      pass_rating: 91.5
-      sos: 11.2
+    - yac_rec: 6.0
+      yds_rr: 3.0
+      aDoT: 11.6
+      drop_pct: 7.9
+      ctc_pct: 61.5
+      pass_rating: 141.7
+      sos: null
       pff:
-        recv: 85.9
-        drop: 90.1
-        fum: 28.2
+        recv: 84.5
+        drop: 82.7
+        fum: 70.5
     nfl:
     - pff:
-        recv: null
+        recv: 79.31
       ftn:
         dyar: -7.0
         dvoa: -118.7
-      catch_pct: 58.9
-      rr: 575.0
-      yards: 1103.0
-      yds_rr: 1.92
-      av: 8.0
-      yac_rec: 4.4
-      yptoe: -0.5
-      xfp_rr: 0.44
-- general:
-    name: Drake London
-    position: WR
-    team: USC
-  physical:
-    height: 77.0
-    weight: 213.0
-    hands: 9.5
-    arm: 33.0
-    span: 79.375
-  combine:
-    40yd: null
-    10yd: null
-    shuttle: null
-    vertical: null
-    broad: null
-    3cone: null
-  stats:
-    college:
-    - yac_rec: 3.2
-      yds_rr: 2.07
-      aDoT: 11.2
-      drop_pct: 2.7
-      ctc_pct: 53.8
-      pass_rating: 87.1
-      sos: 1.9
-      pff:
-        recv: 85.3
-        drop: 88.0
-        fum: 23.3
-    nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
-- general:
-    name: Chris Olave
-    position: WR
-    team: OHIOST
-  physical:
-    height: 72.0
-    weight: 188.0
-    hands: 9.5
-    arm: 31.125
-    span: 73.5
-  combine:
-    40yd: 4.39
-    10yd: 1.53
-    shuttle: 4.25
-    vertical: 32.0
-    broad: 124.0
-    3cone: 7.14
-  stats:
-    college:
-    - yac_rec: 3.0
-      yds_rr: 2.42
-      aDoT: 14.9
-      drop_pct: 4.0
-      ctc_pct: 33.3
-      pass_rating: 86.3
-      sos: 11.2
-      pff:
-        recv: 82.9
-        drop: 81.9
-        fum: 27.4
-    nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 58.55
+      rr: 1209.0
+      yards: 2145.0
+      yds_rr: 3.56
+      av: 15.0
+      yac_rec: 4.01
+      yptoe: -1.1
+      xfp_rr: 0.46
 - general:
     name: George Pickens
     position: WR
@@ -1294,31 +1206,31 @@ players:
     3cone: 6.89
   stats:
     college:
-    - yac_rec: 2.1
-      yds_rr: 1.38
-      aDoT: 15.6
-      drop_pct: 7.1
-      ctc_pct: 67.9
-      pass_rating: 109.3
-      sos: 15.7
+    - yac_rec: 9.0
+      yds_rr: 1.67
+      aDoT: -4.0
+      drop_pct: 0.0
+      ctc_pct: null
+      pass_rating: 87.5
+      sos: null
       pff:
-        recv: 69.3
-        drop: 67.8
-        fum: 80.6
+        recv: 59.1
+        drop: 61.0
+        fum: 66.7
     nfl:
     - pff:
-        recv: null
+        recv: 72.72
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 60.85
+      rr: 1056.0
+      yards: 1941.0
+      yds_rr: 3.71
+      av: 17.0
+      yac_rec: 4.64
+      yptoe: 1.2
+      xfp_rr: 0.35
 - general:
     name: Alec Pierce
     position: WR
@@ -1338,119 +1250,31 @@ players:
     3cone: 7.13
   stats:
     college:
-    - yac_rec: 2.7
-      yds_rr: 1.24
-      aDoT: 12.2
-      drop_pct: 8.9
-      ctc_pct: 42.9
-      pass_rating: 77.4
-      sos: 5.1
+    - yac_rec: 3.8
+      yds_rr: 2.54
+      aDoT: 16.7
+      drop_pct: 5.9
+      ctc_pct: 50.0
+      pass_rating: 126.6
+      sos: null
       pff:
-        recv: 61.1
-        drop: 51.5
-        fum: 29.9
+        recv: 77.7
+        drop: 73.6
+        fum: 75.0
     nfl:
     - pff:
-        recv: null
+        recv: 58.59
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
-- general:
-    name: Christian Watson
-    position: WR
-    team: NDSU
-  physical:
-    height: 76.0
-    weight: 205.0
-    hands: 10.25
-    arm: 32.5
-    span: 78.125
-  combine:
-    40yd: 4.36
-    10yd: 1.48
-    shuttle: 4.22
-    vertical: 38.5
-    broad: 136.0
-    3cone: 6.93
-  stats:
-    college:
-    - yac_rec: 6.4
-      yds_rr: 2.26
-      aDoT: 14.3
-      drop_pct: 10.6
-      ctc_pct: 75.0
-      pass_rating: 123.3
-      sos: -20
-      pff:
-        recv: 77.8
-        drop: 50.7
-        fum: 80.1
-    nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
-- general:
-    name: Romeo Doubs
-    position: WR
-    team: NEVA
-  physical:
-    height: 74.0
-    weight: 204.0
-    hands: 10.125
-    arm: 32.875
-    span: 78.125
-  combine:
-    40yd: 4.52
-    10yd: null
-    shuttle: null
-    vertical: null
-    broad: null
-    3cone: null
-  stats:
-    college:
-    - yac_rec: 4.6
-      yds_rr: 1.36
-      aDoT: 9.8
-      drop_pct: 10.6
-      ctc_pct: 33.3
-      pass_rating: 100.1
-      sos: -3.6
-      pff:
-        recv: 62.0
-        drop: 51.5
-        fum: 23.5
-    nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 52.14
+      rr: 976.0
+      yards: 1107.0
+      yds_rr: 2.31
+      av: 9.0
+      yac_rec: 2.97
+      yptoe: -0.9
+      xfp_rr: 0.27
 - general:
     name: Jahan Dotson
     position: WR
@@ -1470,163 +1294,163 @@ players:
     3cone: 7.21
   stats:
     college:
-    - yac_rec: 4.1
-      yds_rr: 1.39
-      aDoT: 15.4
-      drop_pct: 7.9
-      ctc_pct: 61.1
-      pass_rating: 102.9
-      sos: 8.7
+    - yac_rec: 5.3
+      yds_rr: 2.56
+      aDoT: 11.3
+      drop_pct: 2.2
+      ctc_pct: 41.7
+      pass_rating: 110.4
+      sos: null
       pff:
-        recv: 74.0
-        drop: 63.4
-        fum: 78.0
+        recv: 87.2
+        drop: 86.7
+        fum: 91.2
     nfl:
     - pff:
-        recv: null
+        recv: 64.26
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 60.43
+      rr: 951.0
+      yards: 1041.0
+      yds_rr: 2.37
+      av: 8.0
+      yac_rec: 3.14
+      yptoe: -0.8
+      xfp_rr: 0.28
 - general:
-    name: Treylon Burks
+    name: Chris Olave
     position: WR
-    team: ARKN
+    team: OHIOST
   physical:
-    height: 73.0
-    weight: 225.0
-    hands: 9.0
-    arm: 33.5
-    span: 79.25
+    height: 72.0
+    weight: 188.0
+    hands: 9.5
+    arm: 31.125
+    span: 73.5
   combine:
-    40yd: 4.55
-    10yd: 1.62
-    shuttle: 4.45
-    vertical: 33.0
-    broad: 122.0
-    3cone: 7.28
+    40yd: 4.39
+    10yd: 1.53
+    shuttle: 4.25
+    vertical: 32.0
+    broad: 124.0
+    3cone: 7.14
   stats:
     college:
-    - yac_rec: 5.4
-      yds_rr: 1.75
-      aDoT: 12.4
-      drop_pct: 2.9
-      ctc_pct: 58.3
-      pass_rating: 70.0
-      sos: 8.8
+    - yac_rec: 4.2
+      yds_rr: 2.29
+      aDoT: 14.7
+      drop_pct: 7.1
+      ctc_pct: 62.5
+      pass_rating: 121.5
+      sos: null
       pff:
-        recv: 73.9
-        drop: 79.6
-        fum: 78.1
+        recv: 79.9
+        drop: 75.5
+        fum: 73.2
     nfl:
     - pff:
-        recv: null
+        recv: 82.9
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 63.86
+      rr: 934.0
+      yards: 2165.0
+      yds_rr: 4.67
+      av: 18.0
+      yac_rec: 3.62
+      yptoe: -0.2
+      xfp_rr: 0.49
 - general:
-    name: Tyquan Thorton
+    name: Drake London
     position: WR
-    team: BAYL
+    team: USC
   physical:
-    height: 73.0
-    weight: 182.0
-    hands: 8.25
-    arm: 32.25
-    span: 75.5
+    height: 77.0
+    weight: 213.0
+    hands: 9.5
+    arm: 33.0
+    span: 79.375
   combine:
-    40yd: 4.28
-    10yd: 1.48
-    shuttle: 4.39
-    vertical: 36.5
-    broad: 130.0
-    3cone: 7.25
+    40yd: null
+    10yd: null
+    shuttle: null
+    vertical: null
+    broad: null
+    3cone: null
   stats:
     college:
-    - yac_rec: 3.0
-      yds_rr: 0.76
-      aDoT: 14.9
-      drop_pct: 12.0
-      ctc_pct: 20.0
-      pass_rating: 64.8
-      sos: 7.3
+    - yac_rec: 5.2
+      yds_rr: 3.52
+      aDoT: 9.2
+      drop_pct: 8.3
+      ctc_pct: 65.4
+      pass_rating: 114.3
+      sos: null
       pff:
-        recv: 54.3
-        drop: 49.5
-        fum: 75.9
+        recv: 91.8
+        drop: 76.4
+        fum: 69.0
     nfl:
     - pff:
-        recv: null
+        recv: 81.87
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 63.23
+      rr: 851.0
+      yards: 1771.0
+      yds_rr: 4.18
+      av: 16.0
+      yac_rec: 3.1
+      yptoe: -0.4
+      xfp_rr: 0.49
 - general:
-    name: Skyy Moore
+    name: Romeo Doubs
     position: WR
-    team: WMICH
+    team: NEVA
   physical:
-    height: 70.0
-    weight: 195.0
-    hands: 10.25
-    arm: 29.75
-    span: 74.25
+    height: 74.0
+    weight: 204.0
+    hands: 10.125
+    arm: 32.875
+    span: 78.125
   combine:
-    40yd: 4.41
-    10yd: 1.54
-    shuttle: 4.32
-    vertical: 34.5
-    broad: 125.0
-    3cone: 7.13
+    40yd: 4.52
+    10yd: null
+    shuttle: null
+    vertical: null
+    broad: null
+    3cone: null
   stats:
     college:
-    - yac_rec: 6.3
-      yds_rr: 1.28
-      aDoT: 7.7
-      drop_pct: 3.6
-      ctc_pct: 33.3
-      pass_rating: 61.7
-      sos: -5.5
+    - yac_rec: 4.0
+      yds_rr: 2.3
+      aDoT: 13.8
+      drop_pct: 4.8
+      ctc_pct: 60.0
+      pass_rating: 130.6
+      sos: null
       pff:
-        recv: 67.6
-        drop: 75.6
-        fum: 84.4
+        recv: 83.3
+        drop: 82.1
+        fum: 81.9
     nfl:
     - pff:
-        recv: null
+        recv: 66.28
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 62.73
+      rr: 723.0
+      yards: 1099.0
+      yds_rr: 3.07
+      av: 11.0
+      yac_rec: 3.29
+      yptoe: -1.5
+      xfp_rr: 0.42
 - general:
     name: Rashid Shaheed
     position: WR
@@ -1646,75 +1470,31 @@ players:
     3cone: null
   stats:
     college:
-    - yac_rec: 6.2
-      yds_rr: 2.59
-      aDoT: 11.6
-      drop_pct: 0.0
-      ctc_pct: 0.0
-      pass_rating: 138.4
-      sos: -20
+    - yac_rec: null
+      yds_rr: null
+      aDoT: null
+      drop_pct: null
+      ctc_pct: null
+      pass_rating: null
+      sos: null
       pff:
-        recv: 78.6
-        drop: 86.9
-        fum: 89.8
+        recv: null
+        drop: null
+        fum: null
     nfl:
     - pff:
-        recv: null
+        recv: 72.19
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
-- general:
-    name: David Bell
-    position: WR
-    team: PURDUE
-  physical:
-    height: 73.0
-    weight: 212.0
-    hands: 9.375
-    arm: 31.75
-    span: 76.375
-  combine:
-    40yd: 4.65
-    10yd: 1.59
-    shuttle: 4.57
-    vertical: 33.0
-    broad: 116.0
-    3cone: 7.14
-  stats:
-    college:
-    - yac_rec: 3.1
-      yds_rr: 0.7
-      aDoT: 6.6
-      drop_pct: 7.7
-      ctc_pct: 44.4
-      pass_rating: 53.4
-      sos: 8
-      pff:
-        recv: 52.1
-        drop: 63.4
-        fum: 76.0
-    nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 66.97
+      rr: 590.0
+      yards: 1206.0
+      yds_rr: 4.51
+      av: 12.0
+      yac_rec: 4.64
+      yptoe: 3.6
+      xfp_rr: 0.34
 - general:
     name: Wan'Dale Robinson
     position: WR
@@ -1734,31 +1514,119 @@ players:
     3cone: null
   stats:
     college:
-    - yac_rec: 5.5
-      yds_rr: 1.76
-      aDoT: 6.1
-      drop_pct: 8.0
-      ctc_pct: 50.0
-      pass_rating: 108.6
-      sos: 3.3
+    - yac_rec: 5.8
+      yds_rr: 3.44
+      aDoT: 10.3
+      drop_pct: 6.9
+      ctc_pct: 53.3
+      pass_rating: 103.4
+      sos: null
       pff:
-        recv: 70.9
-        drop: 50.6
-        fum: 75.8
+        recv: 90.0
+        drop: 81.5
+        fum: 74.3
     nfl:
     - pff:
-        recv: null
+        recv: 67.95
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
+      catch_pct: 78.3
+      rr: 501.0
+      yards: 752.0
+      yds_rr: 3.2
+      av: 6.0
+      yac_rec: 5.23
+      yptoe: 0.55
+      xfp_rr: 0.34
+- general:
+    name: Christian Watson
+    position: WR
+    team: NDSU
+  physical:
+    height: 76.0
+    weight: 205.0
+    hands: 10.25
+    arm: 32.5
+    span: 78.125
+  combine:
+    40yd: 4.36
+    10yd: 1.48
+    shuttle: 4.22
+    vertical: 38.5
+    broad: 136.0
+    3cone: 6.93
+  stats:
+    college:
+    - yac_rec: null
       yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      aDoT: null
+      drop_pct: null
+      ctc_pct: null
+      pass_rating: null
+      sos: null
+      pff:
+        recv: null
+        drop: null
+        fum: null
+    nfl:
+    - pff:
+        recv: 74.19
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: 58.47
+      rr: 483.0
+      yards: 1033.0
+      yds_rr: 4.27
+      av: 11.0
+      yac_rec: 5.39
+      yptoe: -0.45
+      xfp_rr: 0.5
+- general:
+    name: Treylon Burks
+    position: WR
+    team: ARKN
+  physical:
+    height: 73.0
+    weight: 225.0
+    hands: 9.0
+    arm: 33.5
+    span: 79.25
+  combine:
+    40yd: 4.55
+    10yd: 1.62
+    shuttle: 4.45
+    vertical: 33.0
+    broad: 122.0
+    3cone: 7.28
+  stats:
+    college:
+    - yac_rec: 9.3
+      yds_rr: 3.57
+      aDoT: 9.7
+      drop_pct: 4.4
+      ctc_pct: 43.8
+      pass_rating: 155.3
+      sos: null
+      pff:
+        recv: 91.0
+        drop: 77.4
+        fum: 81.7
+    nfl:
+    - pff:
+        recv: 63.0
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: 58.33
+      rr: 478.0
+      yards: 665.0
+      yds_rr: 2.78
+      av: 6.0
+      yac_rec: 5.04
+      yptoe: -1.15
+      xfp_rr: 0.35
 - general:
     name: Khalil Shakir
     position: WR
@@ -1778,119 +1646,163 @@ players:
     3cone: 7.12
   stats:
     college:
-    - yac_rec: 5.6
-      yds_rr: 1.47
-      aDoT: 14.5
-      drop_pct: 11.8
-      ctc_pct: 66.7
-      pass_rating: 116.6
-      sos: 0.6
+    - yac_rec: 6.1
+      yds_rr: 2.83
+      aDoT: 9.8
+      drop_pct: 11.5
+      ctc_pct: 44.4
+      pass_rating: 116.0
+      sos: null
       pff:
-        recv: 68.0
-        drop: 52.8
-        fum: 77.6
+        recv: 89.3
+        drop: 75.0
+        fum: 57.5
     nfl:
     - pff:
-        recv: null
+        recv: 72.54
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 77.78
+      rr: 421.0
+      yards: 772.0
+      yds_rr: 3.4
+      av: 8.0
+      yac_rec: 7.41
+      yptoe: 3.25
+      xfp_rr: 0.24
 - general:
-    name: Kyle Philips
+    name: Skyy Moore
     position: WR
-    team: UCLA
+    team: WMICH
   physical:
-    height: 72.0
-    weight: 196.0
+    height: 70.0
+    weight: 195.0
+    hands: 10.25
+    arm: 29.75
+    span: 74.25
+  combine:
+    40yd: 4.41
+    10yd: 1.54
+    shuttle: 4.32
+    vertical: 34.5
+    broad: 125.0
+    3cone: 7.13
+  stats:
+    college:
+    - yac_rec: 5.7
+      yds_rr: 3.46
+      aDoT: 10.6
+      drop_pct: 3.2
+      ctc_pct: 61.5
+      pass_rating: 132.2
+      sos: null
+      pff:
+        recv: 92.0
+        drop: 76.9
+        fum: 88.4
+    nfl:
+    - pff:
+        recv: 60.43
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: 62.32
+      rr: 413.0
+      yards: 494.0
+      yds_rr: 2.57
+      av: 4.0
+      yac_rec: 6.09
+      yptoe: -0.6
+      xfp_rr: 0.31
+- general:
+    name: Tyquan Thornton
+    position: WR
+    team: BAYL
+  physical:
+    height: 73.0
+    weight: 182.0
+    hands: 8.25
+    arm: 32.25
+    span: 75.5
+  combine:
+    40yd: 4.28
+    10yd: 1.48
+    shuttle: 4.39
+    vertical: 36.5
+    broad: 130.0
+    3cone: 7.25
+  stats:
+    college:
+    - yac_rec: 3.2
+      yds_rr: 2.68
+      aDoT: 15.4
+      drop_pct: 5.2
+      ctc_pct: 50.0
+      pass_rating: 120.8
+      sos: null
+      pff:
+        recv: 81.9
+        drop: 74.3
+        fum: 77.9
+    nfl:
+    - pff:
+        recv: 54.33
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: 53.03
+      rr: 412.0
+      yards: 338.0
+      yds_rr: 1.59
+      av: 3.0
+      yac_rec: 3.37
+      yptoe: -3.6
+      xfp_rr: 0.31
+- general:
+    name: David Bell
+    position: WR
+    team: PURDUE
+  physical:
+    height: 73.0
+    weight: 212.0
     hands: 9.375
-    arm: 30.5
-    span: 74.125
+    arm: 31.75
+    span: 76.375
   combine:
-    40yd: null
-    10yd: null
-    shuttle: null
-    vertical: null
-    broad: null
-    3cone: null
-  stats:
-    college:
-    - yac_rec: 2.4
-      yds_rr: 1.63
-      aDoT: 7.8
-      drop_pct: 11.1
-      ctc_pct: 66.7
-      pass_rating: 78.4
-      sos: 2.1
-      pff:
-        recv: 63.7
-        drop: 54.6
-        fum: 76.3
-    nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
-- general:
-    name: Velus Jones Jr.
-    position: WR
-    team: USC
-  physical:
-    height: 72.0
-    weight: 203.0
-    hands: 9.5
-    arm: 31.0
-    span: 73.5
-  combine:
-    40yd: 4.31
-    10yd: 1.47
-    shuttle: 4.48
+    40yd: 4.65
+    10yd: 1.59
+    shuttle: 4.57
     vertical: 33.0
-    broad: 120.0
-    3cone: 7.12
+    broad: 116.0
+    3cone: 7.14
   stats:
     college:
-    - yac_rec: 6.0
-      yds_rr: 1.51
-      aDoT: 19.2
-      drop_pct: 12.5
-      ctc_pct: 33.3
-      pass_rating: 115.5
-      sos: 1.9
+    - yac_rec: 5.8
+      yds_rr: 2.7
+      aDoT: 10.7
+      drop_pct: 5.1
+      ctc_pct: 42.3
+      pass_rating: 115.3
+      sos: null
       pff:
-        recv: 62.8
-        drop: 52.1
-        fum: 44.6
+        recv: 87.4
+        drop: 77.1
+        fum: 81.1
     nfl:
     - pff:
-        recv: null
+        recv: 55.06
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 70.37
+      rr: 406.0
+      yards: 381.0
+      yds_rr: 2.1
+      av: 3.0
+      yac_rec: 3.92
+      yptoe: 0.1
+      xfp_rr: 0.2
 - general:
     name: Brandon Johnson
     position: WR
@@ -1910,251 +1822,75 @@ players:
     3cone: null
   stats:
     college:
-    - yac_rec: 2.2
-      yds_rr: 0.33
-      aDoT: 15.5
-      drop_pct: 0.0
-      ctc_pct: 33.3
-      pass_rating: 51.4
-      sos: -1.4
+    - yac_rec: 4.1
+      yds_rr: 1.46
+      aDoT: 14.2
+      drop_pct: 7.3
+      ctc_pct: 61.5
+      pass_rating: 114.6
+      sos: null
       pff:
-        recv: 51.4
-        drop: 74.6
-        fum: 70.3
+        recv: 64.0
+        drop: 38.1
+        fum: 69.7
     nfl:
     - pff:
-        recv: null
+        recv: 59.7
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 64.1
+      rr: 309.0
+      yards: 326.0
+      yds_rr: 1.84
+      av: 3.0
+      yac_rec: 4.2
+      yptoe: -1.5
+      xfp_rr: 0.25
 - general:
-    name: Jalen Nailor
+    name: Jalen Tolbert
     position: WR
-    team: MICHST
+    team: S.BAMA
   physical:
-    height: 72.0
-    weight: 191.0
-    hands: 9.625
-    arm: 31.875
-    span: null
-  combine:
-    40yd: null
-    10yd: null
-    shuttle: null
-    vertical: null
-    broad: null
-    3cone: null
-  stats:
-    college:
-    - yac_rec: 7.6
-      yds_rr: 5.77
-      aDoT: 12.4
-      drop_pct: 0.0
-      ctc_pct: 100.0
-      pass_rating: 109.7
-      sos: 7.6
-      pff:
-        recv: 90.8
-        drop: 77.3
-        fum: 70.6
-    nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
-- general:
-    name: Montrell Washington
-    position: WR
-    team: SAMF
-  physical:
-    height: 70.0
-    weight: 170.0
-    hands: 9.375
-    arm: null
-    span: null
-  combine:
-    40yd: 4.48
-    10yd: null
-    shuttle: 4.34
-    vertical: 39.0
-    broad: 118.0
-    3cone: null
-  stats:
-    college:
-    - yac_rec: 3.5
-      yds_rr: 0.04
-      aDoT: 18.6
-      drop_pct: 20.0
-      ctc_pct: 0.0
-      pass_rating: 47.9
-      sos: -20
-      pff:
-        recv: 48.4
-        drop: 42.1
-        fum: 36.4
-    nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
-- general:
-    name: Deven Thompkins
-    position: WR
-    team: UTAHST
-  physical:
-    height: 67.0
-    weight: 167.0
-    hands: 8.125
-    arm: 29.5
-    span: null
-  combine:
-    40yd: 4.35
-    10yd: null
-    shuttle: 4.25
-    vertical: 38.0
-    broad: 132.0
-    3cone: null
-  stats:
-    college:
-    - yac_rec: 6.8
-      yds_rr: 0.71
-      aDoT: 7.6
-      drop_pct: 0.0
-      ctc_pct: 0.0
-      pass_rating: 57.1
-      sos: -6.3
-      pff:
-        recv: 55.7
-        drop: 73.4
-        fum: 43.1
-    nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
-- general:
-    name: Michael Woods II
-    position: WR
-    team: OKL
-  physical:
-    height: 74.0
-    weight: 204.0
+    height: 73.0
+    weight: 194.0
     hands: 10.0
-    arm: null
-    span: null
+    arm: 32.25
+    span: 76.25
   combine:
-    40yd: 4.55
-    10yd: null
-    shuttle: null
-    vertical: null
-    broad: null
-    3cone: null
+    40yd: 4.49
+    10yd: 1.54
+    shuttle: 4.24
+    vertical: 36.0
+    broad: 123.0
+    3cone: 7.08
   stats:
     college:
-    - yac_rec: 3.2
-      yds_rr: 0.48
-      aDoT: 17.7
-      drop_pct: 0.0
-      ctc_pct: null
-      pass_rating: 22.9
-      sos: 7.4
+    - yac_rec: 7.1
+      yds_rr: 3.16
+      aDoT: 14.2
+      drop_pct: 8.9
+      ctc_pct: 44.4
+      pass_rating: 116.9
+      sos: null
       pff:
-        recv: 53.4
-        drop: 74.5
-        fum: 68.8
+        recv: 85.1
+        drop: 59.2
+        fum: 62.8
     nfl:
     - pff:
-        recv: null
+        recv: 58.38
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
-- general:
-    name: Samouri Toure
-    position: WR
-    team: NEBR
-  physical:
-    height: 74.0
-    weight: 191.0
-    hands: null
-    arm: null
-    span: null
-  combine:
-    40yd: null
-    10yd: null
-    shuttle: null
-    vertical: null
-    broad: null
-    3cone: null
-  stats:
-    college:
-    - yac_rec: 2.0
-      yds_rr: 1.03
-      aDoT: 19.8
-      drop_pct: 0.0
-      ctc_pct: null
-      pass_rating: 123.4
-      sos: 9.3
-      pff:
-        recv: 50.8
-        drop: 73.4
-        fum: 16.0
-    nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 63.16
+      rr: 288.0
+      yards: 280.0
+      yds_rr: 1.39
+      av: 3.0
+      yac_rec: 1.5
+      yptoe: -2.95
+      xfp_rr: 0.26
 - general:
     name: Jameson Williams
     position: WR
@@ -2174,31 +1910,295 @@ players:
     3cone: null
   stats:
     college:
-    - yac_rec: 5.0
-      yds_rr: 1.11
-      aDoT: 19.3
-      drop_pct: 66.7
-      ctc_pct: null
-      pass_rating: 88.0
-      sos: 15.3
+    - yac_rec: 9.1
+      yds_rr: 3.11
+      aDoT: 15.0
+      drop_pct: 7.6
+      ctc_pct: 37.5
+      pass_rating: 143.9
+      sos: null
       pff:
-        recv: 57.5
-        drop: 27.3
-        fum: 66.2
+        recv: 83.4
+        drop: 32.9
+        fum: 70.7
     nfl:
     - pff:
-        recv: null
+        recv: 61.49
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
+      catch_pct: 49.02
+      rr: 261.0
+      yards: 395.0
+      yds_rr: 2.67
+      av: 5.0
+      yac_rec: 4.36
+      yptoe: -2.9
+      xfp_rr: 0.37
+- general:
+    name: Deven Thompkins
+    position: WR
+    team: UTAHST
+  physical:
+    height: 67.0
+    weight: 167.0
+    hands: 8.125
+    arm: 29.5
+    span: null
+  combine:
+    40yd: 4.35
+    10yd: null
+    shuttle: 4.25
+    vertical: 38.0
+    broad: 132.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 4.8
+      yds_rr: 3.41
+      aDoT: 16.4
+      drop_pct: 4.3
+      ctc_pct: 41.4
+      pass_rating: 109.6
+      sos: null
+      pff:
+        recv: 88.9
+        drop: 77.8
+        fum: 84.4
+    nfl:
+    - pff:
+        recv: 56.35
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: 62.86
+      rr: 159.0
+      yards: 115.0
+      yds_rr: 1.63
+      av: 1.0
+      yac_rec: 4.82
+      yptoe: -4.0
+      xfp_rr: 0.43
+- general:
+    name: Kyle Philips
+    position: WR
+    team: UCLA
+  physical:
+    height: 72.0
+    weight: 196.0
+    hands: 9.375
+    arm: 30.5
+    span: 74.125
+  combine:
+    40yd: null
+    10yd: null
+    shuttle: null
+    vertical: null
+    broad: null
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 6.0
+      yds_rr: 2.11
+      aDoT: 9.8
+      drop_pct: 9.2
+      ctc_pct: 33.3
+      pass_rating: 104.9
+      sos: null
+      pff:
+        recv: 76.6
+        drop: 64.1
+        fum: 65.0
+    nfl:
+    - pff:
+        recv: 69.42
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: 65.71
+      rr: 145.0
+      yards: 259.0
+      yds_rr: 3.53
+      av: 3.0
+      yac_rec: 5.61
+      yptoe: -0.3
+      xfp_rr: 0.43
+- general:
+    name: Velus Jones Jr.
+    position: WR
+    team: USC
+  physical:
+    height: 72.0
+    weight: 203.0
+    hands: 9.5
+    arm: 31.0
+    span: 73.5
+  combine:
+    40yd: 4.31
+    10yd: 1.47
+    shuttle: 4.48
+    vertical: 33.0
+    broad: 120.0
+    3cone: 7.12
+  stats:
+    college:
+    - yac_rec: 8.8
+      yds_rr: 2.8
+      aDoT: 6.7
+      drop_pct: 3.7
+      ctc_pct: 40.0
+      pass_rating: 135.2
+      sos: null
+      pff:
+        recv: 77.3
+        drop: 68.9
+        fum: 83.0
+    nfl:
+    - pff:
+        recv: 57.1
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: 57.89
+      rr: 118.0
+      yards: 127.0
+      yds_rr: 1.97
+      av: 3.0
+      yac_rec: 5.09
+      yptoe: -3.2
+      xfp_rr: 0.37
+- general:
+    name: Michael Woods II
+    position: WR
+    team: OKL
+  physical:
+    height: 74.0
+    weight: 204.0
+    hands: 10.0
+    arm: null
+    span: null
+  combine:
+    40yd: 4.55
+    10yd: null
+    shuttle: null
+    vertical: null
+    broad: null
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 5.5
+      yds_rr: 1.91
+      aDoT: 11.3
+      drop_pct: 8.3
+      ctc_pct: 40.0
+      pass_rating: 88.1
+      sos: null
+      pff:
+        recv: 71.4
+        drop: 72.6
+        fum: 67.3
+    nfl:
+    - pff:
+        recv: 53.4
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: 62.5
+      rr: 88.0
+      yards: 45.0
+      yds_rr: 0.51
+      av: 0.0
+      yac_rec: 3.8
+      yptoe: -3.6
+      xfp_rr: 0.2
+- general:
+    name: Jalen Nailor
+    position: WR
+    team: MICHST
+  physical:
+    height: 72.0
+    weight: 191.0
+    hands: 9.625
+    arm: 31.875
+    span: null
+  combine:
+    40yd: null
+    10yd: null
+    shuttle: null
+    vertical: null
+    broad: null
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 10.5
+      yds_rr: 2.83
+      aDoT: 13.2
+      drop_pct: 8.6
+      ctc_pct: 0.0
+      pass_rating: 91.2
+      sos: null
+      pff:
+        recv: 74.7
+        drop: 73.3
+        fum: 66.7
+    nfl:
+    - pff:
+        recv: 65.56
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: 66.67
+      rr: 75.0
+      yards: 208.0
+      yds_rr: 8.03
+      av: 1.0
+      yac_rec: 7.33
+      yptoe: 1.45
+      xfp_rr: 0.39
+- general:
+    name: Montrell Washington
+    position: WR
+    team: SAMF
+  physical:
+    height: 70.0
+    weight: 170.0
+    hands: 9.375
+    arm: null
+    span: null
+  combine:
+    40yd: 4.48
+    10yd: null
+    shuttle: 4.34
+    vertical: 39.0
+    broad: 118.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: null
       yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      aDoT: null
+      drop_pct: null
+      ctc_pct: null
+      pass_rating: null
+      sos: null
+      pff:
+        recv: null
+        drop: null
+        fum: null
+    nfl:
+    - pff:
+        recv: 48.4
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: 44.44
+      rr: 53.0
+      yards: 2.0
+      yds_rr: 0.04
+      av: 0.0
+      yac_rec: 3.5
+      yptoe: -9.0
+      xfp_rr: 0.36
 - general:
     name: Dennis Houston
     position: WR
@@ -2218,75 +2218,31 @@ players:
     3cone: 7.42
   stats:
     college:
-    - yac_rec: 3.0
-      yds_rr: 0.33
-      aDoT: 14.3
-      drop_pct: 0.0
-      ctc_pct: 100.0
-      pass_rating: 82.1
-      sos: -20
+    - yac_rec: null
+      yds_rr: null
+      aDoT: null
+      drop_pct: null
+      ctc_pct: null
+      pass_rating: null
+      sos: null
       pff:
+        recv: null
+        drop: null
+        fum: null
+    nfl:
+    - pff:
         recv: 54.7
-        drop: 68.3
-        fum: 64.0
-    nfl:
-    - pff:
-        recv: null
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
-- general:
-    name: Danny Gray
-    position: WR
-    team: SMU
-  physical:
-    height: 73.0
-    weight: 186.0
-    hands: 8.25
-    arm: 31.375
-    span: 74.125
-  combine:
-    40yd: 4.33
-    10yd: null
-    shuttle: 4.36
-    vertical: 34.0
-    broad: 126.0
-    3cone: 7.09
-  stats:
-    college:
-    - yac_rec: 4.0
-      yds_rr: 0.31
-      aDoT: 24.5
-      drop_pct: 0.0
-      ctc_pct: 0.0
-      pass_rating: 39.5
-      sos: -1.4
-      pff:
-        recv: 52.0
-        drop: 64.7
-        fum: 64.6
-    nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 33.33
+      rr: 44.0
+      yards: 16.0
+      yds_rr: 0.36
+      av: 0.0
+      yac_rec: 3.0
+      yptoe: -6.2
+      xfp_rr: 0.27
 - general:
     name: Jalen Virgil
     position: WR
@@ -2306,31 +2262,75 @@ players:
     3cone: null
   stats:
     college:
-    - yac_rec: 21.5
-      yds_rr: 1.74
-      aDoT: 18.3
-      drop_pct: 0.0
-      ctc_pct: null
-      pass_rating: 135.4
-      sos: -1.7
+    - yac_rec: 5.4
+      yds_rr: 1.99
+      aDoT: 17.4
+      drop_pct: 20.0
+      ctc_pct: 20.0
+      pass_rating: 52.6
+      sos: null
       pff:
-        recv: 58.5
-        drop: 68.3
-        fum: 14.3
+        recv: 62.7
+        drop: 38.1
+        fum: 38.6
     nfl:
     - pff:
-        recv: null
+        recv: 58.5
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
+      catch_pct: 50.0
+      rr: 43.0
+      yards: 75.0
+      yds_rr: 1.74
+      av: 0.0
+      yac_rec: 21.5
+      yptoe: 8.3
+      xfp_rr: 0.18
+- general:
+    name: Dareke Young
+    position: WR
+    team: LENOIR
+  physical:
+    height: 74.0
+    weight: 224.0
+    hands: 9.625
+    arm: 33.5
+    span: 81.0
+  combine:
+    40yd: 4.44
+    10yd: 1.58
+    shuttle: 4.4
+    vertical: 38.0
+    broad: 121.0
+    3cone: 7.15
+  stats:
+    college:
+    - yac_rec: null
       yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      aDoT: null
+      drop_pct: null
+      ctc_pct: null
+      pass_rating: null
+      sos: null
+      pff:
+        recv: null
+        drop: null
+        fum: null
+    nfl:
+    - pff:
+        recv: 61.9
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: 100.0
+      rr: 32.0
+      yards: 24.0
+      yds_rr: 0.83
+      av: 0.0
+      yac_rec: 12.0
+      yptoe: 6.7
+      xfp_rr: 0.22
 - general:
     name: Lance McCutcheon
     position: WR
@@ -2351,74 +2351,74 @@ players:
   stats:
     college:
     - yac_rec: null
-      yds_rr: 0.0
-      aDoT: 14.3
+      yds_rr: null
+      aDoT: null
       drop_pct: null
-      ctc_pct: 0.0
-      pass_rating: 39.6
-      sos: -20
+      ctc_pct: null
+      pass_rating: null
+      sos: null
       pff:
-        recv: 47.4
+        recv: null
         drop: null
         fum: null
     nfl:
     - pff:
-        recv: null
+        recv: 47.4
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 0.0
+      rr: 26.0
+      yards: 0.0
+      yds_rr: 0.0
+      av: 0.0
+      yac_rec: 0.0
+      yptoe: -9.1
+      xfp_rr: 0.28
 - general:
-    name: Jalen Tolbert
+    name: Danny Gray
     position: WR
-    team: S.BAMA
+    team: SMU
   physical:
     height: 73.0
-    weight: 194.0
-    hands: 10.0
-    arm: 32.25
-    span: 76.25
+    weight: 186.0
+    hands: 8.25
+    arm: 31.375
+    span: 74.125
   combine:
-    40yd: 4.49
-    10yd: 1.54
-    shuttle: 4.24
-    vertical: 36.0
-    broad: 123.0
-    3cone: 7.08
+    40yd: 4.33
+    10yd: null
+    shuttle: 4.36
+    vertical: 34.0
+    broad: 126.0
+    3cone: 7.09
   stats:
     college:
-    - yac_rec: 0.0
-      yds_rr: 0.39
-      aDoT: 15.7
-      drop_pct: 0.0
-      ctc_pct: 100.0
-      pass_rating: 74.3
-      sos: -11.5
+    - yac_rec: 8.6
+      yds_rr: 2.69
+      aDoT: 10.9
+      drop_pct: 12.5
+      ctc_pct: 57.1
+      pass_rating: 133.3
+      sos: null
       pff:
-        recv: 50.7
-        drop: 68.3
-        fum: 64.0
+        recv: 77.6
+        drop: 74.5
+        fum: 53.7
     nfl:
     - pff:
-        recv: null
+        recv: 52.4
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 16.67
+      rr: 26.0
+      yards: 10.0
+      yds_rr: 0.38
+      av: 0.0
+      yac_rec: 4.0
+      yptoe: -8.6
+      xfp_rr: 0.4
 - general:
     name: Braylon Sanders
     position: WR
@@ -2438,75 +2438,31 @@ players:
     3cone: 7.13
   stats:
     college:
-    - yac_rec: 2.0
-      yds_rr: 0.89
-      aDoT: 19.0
-      drop_pct: 0.0
-      ctc_pct: null
-      pass_rating: 81.3
-      sos: 8
+    - yac_rec: 6.2
+      yds_rr: 1.66
+      aDoT: 20.8
+      drop_pct: 8.3
+      ctc_pct: 20.0
+      pass_rating: 93.8
+      sos: null
       pff:
+        recv: 62.9
+        drop: 42.6
+        fum: 66.7
+    nfl:
+    - pff:
         recv: 48.6
-        drop: 68.3
-        fum: 13.3
-    nfl:
-    - pff:
-        recv: null
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
-- general:
-    name: Dareke Young
-    position: WR
-    team: LENOIR
-  physical:
-    height: 74.0
-    weight: 224.0
-    hands: 9.625
-    arm: 33.5
-    span: 81.0
-  combine:
-    40yd: 4.44
-    10yd: 1.58
-    shuttle: 4.4
-    vertical: 38.0
-    broad: 121.0
-    3cone: 7.15
-  stats:
-    college:
-    - yac_rec: 8.3
-      yds_rr: 0.95
-      aDoT: 3.3
-      drop_pct: 0.0
-      ctc_pct: null
-      pass_rating: 115.3
-      sos: -20
-      pff:
-        recv: 60.6
-        drop: 72.1
-        fum: 67.0
-    nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      catch_pct: 66.67
+      rr: 18.0
+      yards: 17.0
+      yds_rr: 0.94
+      av: 0.0
+      yac_rec: 1.0
+      yptoe: -3.3
+      xfp_rr: 0.25
 - general:
     name: Daylen Baldwin
     position: WR
@@ -2526,28 +2482,72 @@ players:
     3cone: null
   stats:
     college:
-    - yac_rec: 0.0
-      yds_rr: 5.0
-      aDoT: 12.5
-      drop_pct: 0.0
-      ctc_pct: 100.0
-      pass_rating: 118.8
-      sos: 12.4
+    - yac_rec: 6.1
+      yds_rr: 2.12
+      aDoT: 11.4
+      drop_pct: 11.1
+      ctc_pct: 0.0
+      pass_rating: 103.5
+      sos: null
       pff:
-        recv: 81.2
-        drop: 68.3
-        fum: 64.0
+        recv: 62.8
+        drop: 69.5
+        fum: 58.6
     nfl:
     - pff:
-        recv: null
+        recv: 81.2
       ftn:
         dyar: null
         dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
+      catch_pct: 100.0
+      rr: 5.0
+      yards: 25.0
+      yds_rr: 5.0
+      av: 0.0
+      yac_rec: 0.0
+      yptoe: 3.5
+      xfp_rr: 0.68
+- general:
+    name: Samouri Toure
+    position: WR
+    team: NEBR
+  physical:
+    height: 74.0
+    weight: 191.0
+    hands: null
+    arm: null
+    span: null
+  combine:
+    40yd: null
+    10yd: null
+    shuttle: null
+    vertical: null
+    broad: null
+    3cone: null
+  stats:
+    college:
+    - yac_rec: null
       yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+      aDoT: null
+      drop_pct: null
+      ctc_pct: null
+      pass_rating: null
+      sos: null
+      pff:
+        recv: null
+        drop: null
+        fum: null
+    nfl:
+    - pff:
+        recv: 0.0
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: 0.0
+      rr: 0.0
+      yards: 0.0
+      yds_rr: 0.0
+      av: 0.0
+      yac_rec: 0.0
+      yptoe: 0.0
+      xfp_rr: 0.0

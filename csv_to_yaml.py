@@ -65,7 +65,7 @@ def csv_to_yaml(csv_file, yaml_file):
                             'yards': safe_float(row['Yards']),
                             'yds_rr': safe_float(row['YPRR']),
                             'av': safe_float(row['AV']),
-                            'yac_rec': safe_float(row['YAC']),
+                            'yac_rec': safe_float(row['YAC/R']),
                             'yptoe': safe_float(row['YPTOE']),
                             'xfp_rr': safe_float(row['XFP/RR'])
                         }
@@ -79,4 +79,4 @@ def csv_to_yaml(csv_file, yaml_file):
         yaml.dump({'players': data}, file, sort_keys=False)
 
 # Usage
-csv_to_yaml('cfb.csv', 'cfb.yaml')
+csv_to_yaml('College Player Projecting NFL Success - Inputs.csv', 'cfb.yaml')
