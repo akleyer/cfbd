@@ -1144,6 +1144,50 @@ players:
       yptoe: -3.5
       xfp_rr: 0.26
 - general:
+    name: ''
+    position: ''
+    team: ''
+  physical:
+    height: null
+    weight: null
+    hands: null
+    arm: null
+    span: null
+  combine:
+    40yd: null
+    10yd: null
+    shuttle: null
+    vertical: null
+    broad: null
+    3cone: null
+  stats:
+    college:
+    - yac_rec: null
+      yds_rr: null
+      aDoT: null
+      drop_pct: null
+      ctc_pct: null
+      pass_rating: null
+      sos: null
+      pff:
+        recv: null
+        drop: null
+        fum: null
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr: null
+      yards: null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
     name: Garrett Wilson
     position: WR
     team: OHIOST
@@ -1177,8 +1221,8 @@ players:
     - pff:
         recv: 79.31
       ftn:
-        dyar: -7.0
-        dvoa: -118.7
+        dyar: -21.51
+        dvoa: -14.05
       catch_pct: 58.55
       rr: 1209.0
       yards: 2145.0
@@ -1221,8 +1265,8 @@ players:
     - pff:
         recv: 72.72
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 173.48
+        dvoa: 10.4
       catch_pct: 60.85
       rr: 1056.0
       yards: 1941.0
@@ -1265,8 +1309,8 @@ players:
     - pff:
         recv: 58.59
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 49.31
+        dvoa: -3.68
       catch_pct: 52.14
       rr: 976.0
       yards: 1107.0
@@ -1309,8 +1353,8 @@ players:
     - pff:
         recv: 64.26
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 51.28
+        dvoa: -2.36
       catch_pct: 60.43
       rr: 951.0
       yards: 1041.0
@@ -1353,8 +1397,8 @@ players:
     - pff:
         recv: 82.9
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 164.47
+        dvoa: 3.58
       catch_pct: 63.86
       rr: 934.0
       yards: 2165.0
@@ -1397,8 +1441,8 @@ players:
     - pff:
         recv: 81.87
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 103.44
+        dvoa: -1.19
       catch_pct: 63.23
       rr: 851.0
       yards: 1771.0
@@ -1441,8 +1485,8 @@ players:
     - pff:
         recv: 66.28
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 67.42
+        dvoa: -5.16
       catch_pct: 62.73
       rr: 723.0
       yards: 1099.0
@@ -1485,8 +1529,8 @@ players:
     - pff:
         recv: 72.19
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 113.92
+        dvoa: 15.83
       catch_pct: 66.97
       rr: 590.0
       yards: 1206.0
@@ -1529,8 +1573,8 @@ players:
     - pff:
         recv: 67.95
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 34.21
+        dvoa: -4.59
       catch_pct: 78.3
       rr: 501.0
       yards: 752.0
@@ -1573,8 +1617,8 @@ players:
     - pff:
         recv: 74.19
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 99.42
+        dvoa: 7.41
       catch_pct: 58.47
       rr: 483.0
       yards: 1033.0
@@ -1617,8 +1661,8 @@ players:
     - pff:
         recv: 63.0
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: -1.6
+        dvoa: -15.3
       catch_pct: 58.33
       rr: 478.0
       yards: 665.0
@@ -1661,8 +1705,8 @@ players:
     - pff:
         recv: 72.54
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 173.3
+        dvoa: 38.24
       catch_pct: 77.78
       rr: 421.0
       yards: 772.0
@@ -1705,8 +1749,8 @@ players:
     - pff:
         recv: 60.43
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 1.53
+        dvoa: -11.23
       catch_pct: 62.32
       rr: 413.0
       yards: 494.0
@@ -1749,8 +1793,8 @@ players:
     - pff:
         recv: 54.33
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: -62.47
+        dvoa: -37.65
       catch_pct: 53.03
       rr: 412.0
       yards: 338.0
@@ -1793,8 +1837,8 @@ players:
     - pff:
         recv: 55.06
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: -11.01
+        dvoa: -16.85
       catch_pct: 70.37
       rr: 406.0
       yards: 381.0
@@ -1837,8 +1881,8 @@ players:
     - pff:
         recv: 59.7
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 64.16
+        dvoa: 18.24
       catch_pct: 64.1
       rr: 309.0
       yards: 326.0
@@ -1881,8 +1925,8 @@ players:
     - pff:
         recv: 58.38
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 56.0
+        dvoa: 5.36
       catch_pct: 63.16
       rr: 288.0
       yards: 280.0
@@ -1925,8 +1969,8 @@ players:
     - pff:
         recv: 61.49
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: -1.21
+        dvoa: -16.19
       catch_pct: 49.02
       rr: 261.0
       yards: 395.0
@@ -1969,8 +2013,8 @@ players:
     - pff:
         recv: 56.35
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: -80.9
+        dvoa: -62.21
       catch_pct: 62.86
       rr: 159.0
       yards: 115.0
@@ -2013,8 +2057,8 @@ players:
     - pff:
         recv: 69.42
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 24.02
+        dvoa: 0.92
       catch_pct: 65.71
       rr: 145.0
       yards: 259.0
@@ -2057,8 +2101,8 @@ players:
     - pff:
         recv: 57.1
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 5.0
+        dvoa: -8.1
       catch_pct: 57.89
       rr: 118.0
       yards: 127.0
@@ -2101,8 +2145,8 @@ players:
     - pff:
         recv: 53.4
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: -22.0
+        dvoa: -39.0
       catch_pct: 62.5
       rr: 88.0
       yards: 45.0
@@ -2145,8 +2189,8 @@ players:
     - pff:
         recv: 65.56
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 11.15
+        dvoa: -18.36
       catch_pct: 66.67
       rr: 75.0
       yards: 208.0
@@ -2189,8 +2233,8 @@ players:
     - pff:
         recv: 48.4
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: -63.0
+        dvoa: -108.1
       catch_pct: 44.44
       rr: 53.0
       yards: 2.0
@@ -2233,8 +2277,8 @@ players:
     - pff:
         recv: 54.7
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: -25.0
+        dvoa: -73.2
       catch_pct: 33.33
       rr: 44.0
       yards: 16.0
@@ -2277,8 +2321,8 @@ players:
     - pff:
         recv: 58.5
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 19.0
+        dvoa: 39.7
       catch_pct: 50.0
       rr: 43.0
       yards: 75.0
@@ -2321,8 +2365,8 @@ players:
     - pff:
         recv: 61.9
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 12.0
+        dvoa: 61.6
       catch_pct: 100.0
       rr: 32.0
       yards: 24.0
@@ -2365,8 +2409,8 @@ players:
     - pff:
         recv: 47.4
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: -38.0
+        dvoa: -108.5
       catch_pct: 0.0
       rr: 26.0
       yards: 0.0
@@ -2409,8 +2453,8 @@ players:
     - pff:
         recv: 52.4
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: -32.0
+        dvoa: -72.2
       catch_pct: 16.67
       rr: 26.0
       yards: 10.0
@@ -2453,8 +2497,8 @@ players:
     - pff:
         recv: 48.6
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: -28.0
+        dvoa: -133.1
       catch_pct: 66.67
       rr: 18.0
       yards: 17.0
@@ -2497,8 +2541,8 @@ players:
     - pff:
         recv: 81.2
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 13.0
+        dvoa: 57.9
       catch_pct: 100.0
       rr: 5.0
       yards: 25.0
@@ -2541,8 +2585,8 @@ players:
     - pff:
         recv: 0.0
       ftn:
-        dyar: null
-        dvoa: null
+        dyar: 0.0
+        dvoa: 0.0
       catch_pct: 0.0
       rr: 0.0
       yards: 0.0
