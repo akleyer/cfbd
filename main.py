@@ -27,6 +27,9 @@ class PlayerNormalizer:
             res = (value - min_v) / (max_v - min_v)
             if direction < 0:
                 res = 1 - res
+
+            if res < 0: res = 0
+            if res > 1: res = 1
             return round(res, 2)
         except KeyError:
             if type(value) is dict:
@@ -38,20 +41,43 @@ class PlayerNormalizer:
 
     def normalize_stats(self, stats, category):
         return {key: self.normalize_value(category, key, val) for key, val in stats.items()}
+    
+    def normalize_nfl_stats(self, stats, category):
+        dict_to_return = {}
+        for key, val in stats.items():
+            if key == 'pff':
+                dict_to_return['pff_recv'] = self.normalize_value(category, "pff_recv", val["recv"])
+            if key == 'ftn':
+                dyar, dvoa = val.items()
+                kiv_dyar, viv_dyar = dyar
+                kiv_dvoa, viv_dvoa = dvoa
+                dict_to_return[f'ftn_{kiv_dyar}'] = self.normalize_value(category, f'ftn_{kiv_dyar}', viv_dyar)
+                dict_to_return[f'ftn_{kiv_dvoa}'] = self.normalize_value(category, f'ftn_{kiv_dvoa}', viv_dvoa)
+            else:
+                dict_to_return[key] = self.normalize_value(category, key, val)
+
+        return dict_to_return
+
 
     def normalize_players(self, players_data):
         norm_data = {}
         for player in players_data:
+            if player['stats']['nfl'][0]['rr'] < 100: continue
+            nfl_stats = self.normalize_nfl_stats(player['stats']['nfl'][0], "nfl_stats")
             physical_stats = self.normalize_stats(player['physical'], "physical")
             combine_stats = self.normalize_stats(player['combine'], "combine")
             college_stats = self.normalize_stats(player['stats']['college'][0], "college_stats")
+            
             
             norm_data[player['general']['name']] = {
                 "general": player['general'],
                 "physical": physical_stats,
                 "combine": combine_stats,
-                "college_stats": college_stats
+                "college_stats": college_stats,
+                "nfl_stats": nfl_stats
             }
+
+            pprint.pprint(nfl_stats)
             
         return norm_data
     
@@ -68,7 +94,7 @@ class PlayerDataRefiner:
                 continue
             total += elem
         try:
-            return total / quant
+            return round(total / quant, 2)
         except ZeroDivisionError:
             return None
     
@@ -80,6 +106,20 @@ class PlayerDataRefiner:
             college_stats_data = player_data['college_stats']
             avg_physical = self.average(physical_data.values())
             avg_speed_accel = self.average([combine_data['40yd'], combine_data['10yd']])
+            nfl_data = player_data['nfl_stats']
+            print(nfl_data)
+            nfl_avg_1 = self.average(
+                [nfl_data['yds_rr'],
+                nfl_data['yac_rec'],
+                nfl_data['yptoe'],
+                nfl_data['xfp_rr']]
+            )
+            nfl_avg_2 = self.average([
+                nfl_data['pff_recv'],
+                nfl_data['ftn_dyar'],
+                nfl_data['ftn_dvoa'],
+                nfl_avg_1
+            ])
             avg_explosive = self.average([
                 combine_data['shuttle'],
                 combine_data['vertical'],
@@ -94,14 +134,22 @@ class PlayerDataRefiner:
                 college_stats_data['drop_pct']
             ])
             refined_data[player] = {
-                'AVG Physical': avg_physical,
-                "AVG Speed Acceleration": avg_speed_accel,
-                "AVG Explosiveness": avg_explosive,
+                'AVG Phys': avg_physical,
+                "AVG Spd Accl": avg_speed_accel,
+                "AVG Explsv": avg_explosive,
                 "Norm RecV": college_stats_data['pff']['recv'],
-                "AVG Catching": avg_catching,
+                "AVG Ctch": avg_catching,
                 "NORM YAC": college_stats_data['yac_rec'],
                 "NORM_YRR": college_stats_data['yds_rr'],
-                "NORM SOS": college_stats_data['sos']
+                "NORM SOS": college_stats_data['sos'],
+                "NFL YPRR": nfl_data['yds_rr'],
+                "NFL YAC": nfl_data['yac_rec'],
+                "NFL_YPTOE": nfl_data['yptoe'],
+                "NFL_XFPRR": nfl_data['xfp_rr'],
+                "NFL_PFF": nfl_data['pff_recv'],
+                "NFL_DYAR": nfl_data['ftn_dyar'],
+                "NFL_DVOA": nfl_data['ftn_dvoa'],
+                "NFL" : nfl_avg_2
             }
 
         return refined_data
@@ -116,10 +164,23 @@ def process_and_sort_data(player_stats):
 
     # Define a custom function to compute the new column based on existing stats
     def compute_new_metric(row):
+        print(row)
         # Example computation: weighted sum of all metrics (customize as needed)
-        return (row['AVG Catching'] + row['AVG Explosiveness'] + row['AVG Physical'] +
-                row['AVG Speed Acceleration'] + row['NORM SOS'] + row['NORM YAC'] +
-                row['NORM_YRR'] + row['Norm RecV']) / 8
+        keys = [
+            "AVG Ctch", "AVG Explsv", "AVG Phys", "AVG Spd Accl",
+            "NORM SOS", "NORM YAC", "NORM_YRR", "Norm RecV"
+        ]
+
+        row_len = 0
+        row_sum = 0
+
+        for key in keys:
+            if row[key]:
+                row_len += 1
+                row_sum += row[key]
+
+
+        return row_sum / row_len
 
     # Apply the function to each row to create the new column
     df['Computed Metric'] = df.apply(compute_new_metric, axis=1)

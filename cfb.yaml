@@ -1144,50 +1144,6 @@ players:
       yptoe: -3.5
       xfp_rr: 0.26
 - general:
-    name: ''
-    position: ''
-    team: ''
-  physical:
-    height: null
-    weight: null
-    hands: null
-    arm: null
-    span: null
-  combine:
-    40yd: null
-    10yd: null
-    shuttle: null
-    vertical: null
-    broad: null
-    3cone: null
-  stats:
-    college:
-    - yac_rec: null
-      yds_rr: null
-      aDoT: null
-      drop_pct: null
-      ctc_pct: null
-      pass_rating: null
-      sos: null
-      pff:
-        recv: null
-        drop: null
-        fum: null
-    nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr: null
-      yards: null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
-- general:
     name: Garrett Wilson
     position: WR
     team: OHIOST
