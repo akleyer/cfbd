@@ -61,8 +61,20 @@ def csv_to_yaml(csv_file, yaml_file):
                                 'dvoa': safe_float(row['DVOA'])
                             },
                             'catch_pct': safe_float(row['Catch %']),
-                            'rr': safe_float(row['RR']),
-                            'yards': safe_float(row['Yards']),
+                            'rr': {
+                                'total': safe_float(row['RR']),
+                                'all': {
+                                    '2022': safe_float(row['RR_2022']),
+                                    '2023': safe_float(row['RR_2023'])
+                                }
+                            },
+                            'yards': {
+                                'total': safe_float(row['Yards']),
+                                'all': {
+                                    '2022': safe_float(row['Yards_2022']),
+                                    '2023': safe_float(row['Yards_2023'])
+                                }
+                            },
                             'yds_rr': safe_float(row['YPRR']),
                             'av': safe_float(row['AV']),
                             'yac_rec': safe_float(row['YAC/R']),

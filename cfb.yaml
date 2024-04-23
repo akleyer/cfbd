@@ -36,8 +36,16 @@ players:
         dyar: 310.0
         dvoa: 11.8
       catch_pct: 66.0
-      rr: 540.0
-      yards: 1486.0
+      rr:
+        total: 540.0
+        all:
+          '2022': 0.0
+          '2023': 540.0
+      yards:
+        total: 1486.0
+        all:
+          '2022': 0.0
+          '2023': 1486.0
       yds_rr: 2.75
       av: 14.0
       yac_rec: 6.18
@@ -80,8 +88,16 @@ players:
         dyar: 223.0
         dvoa: 15.3
       catch_pct: 77.5
-      rr: 358.0
-      yards: 938.0
+      rr:
+        total: 358.0
+        all:
+          '2022': 0.0
+          '2023': 358.0
+      yards:
+        total: 938.0
+        all:
+          '2022': 0.0
+          '2023': 938.0
       yds_rr: 2.62
       av: 8.0
       yac_rec: 8.3
@@ -124,8 +140,16 @@ players:
         dyar: 185.0
         dvoa: 18.9
       catch_pct: 62.7
-      rr: 296.0
-      yards: 709.0
+      rr:
+        total: 296.0
+        all:
+          '2022': 0.0
+          '2023': 296.0
+      yards:
+        total: 709.0
+        all:
+          '2022': 0.0
+          '2023': 709.0
       yds_rr: 2.4
       av: 6.0
       yac_rec: 3.19
@@ -168,8 +192,16 @@ players:
         dyar: 194.0
         dvoa: 27.7
       catch_pct: 67.2
-      rr: 252.0
-      yards: 581.0
+      rr:
+        total: 252.0
+        all:
+          '2022': 0.0
+          '2023': 252.0
+      yards:
+        total: 581.0
+        all:
+          '2022': 0.0
+          '2023': 581.0
       yds_rr: 2.31
       av: 6.0
       yac_rec: 5.69
@@ -212,8 +244,16 @@ players:
         dyar: 117.0
         dvoa: 1.1
       catch_pct: 71.3
-      rr: 504.0
-      yards: 858.0
+      rr:
+        total: 504.0
+        all:
+          '2022': 0.0
+          '2023': 504.0
+      yards:
+        total: 858.0
+        all:
+          '2022': 0.0
+          '2023': 858.0
       yds_rr: 1.7
       av: 9.0
       yac_rec: 5.03
@@ -256,8 +296,16 @@ players:
         dyar: -43.0
         dvoa: -19.7
       catch_pct: 62.8
-      rr: 312.0
-      yards: 561.0
+      rr:
+        total: 312.0
+        all:
+          '2022': 0.0
+          '2023': 312.0
+      yards:
+        total: 561.0
+        all:
+          '2022': 0.0
+          '2023': 561.0
       yds_rr: 1.8
       av: 4.0
       yac_rec: 6.98
@@ -300,8 +348,16 @@ players:
         dyar: 40.0
         dvoa: 9.1
       catch_pct: 76.0
-      rr: 130.0
-      yards: 196.0
+      rr:
+        total: 130.0
+        all:
+          '2022': 0.0
+          '2023': 130.0
+      yards:
+        total: 196.0
+        all:
+          '2022': 0.0
+          '2023': 196.0
       yds_rr: 1.51
       av: 2.0
       yac_rec: 4.74
@@ -344,8 +400,16 @@ players:
         dyar: 167.0
         dvoa: 9.7
       catch_pct: 68.1
-      rr: 356.0
-      yards: 793.0
+      rr:
+        total: 356.0
+        all:
+          '2022': 0.0
+          '2023': 356.0
+      yards:
+        total: 793.0
+        all:
+          '2022': 0.0
+          '2023': 793.0
       yds_rr: 2.23
       av: 9.0
       yac_rec: 5.48
@@ -388,8 +452,16 @@ players:
         dyar: 78.0
         dvoa: -2.1
       catch_pct: 69.4
-      rr: 439.0
-      yards: 771.0
+      rr:
+        total: 439.0
+        all:
+          '2022': 0.0
+          '2023': 439.0
+      yards:
+        total: 771.0
+        all:
+          '2022': 0.0
+          '2023': 771.0
       yds_rr: 1.76
       av: 7.0
       yac_rec: 5.49
@@ -432,8 +504,16 @@ players:
         dyar: 192.0
         dvoa: 10.0
       catch_pct: 64.8
-      rr: 559.0
-      yards: 911.0
+      rr:
+        total: 559.0
+        all:
+          '2022': 0.0
+          '2023': 559.0
+      yards:
+        total: 911.0
+        all:
+          '2022': 0.0
+          '2023': 911.0
       yds_rr: 1.63
       av: 7.0
       yac_rec: 3.81
@@ -476,8 +556,16 @@ players:
         dyar: 136.0
         dvoa: 18.1
       catch_pct: 65.5
-      rr: 388.0
-      yards: 565.0
+      rr:
+        total: 388.0
+        all:
+          '2022': 0.0
+          '2023': 388.0
+      yards:
+        total: 565.0
+        all:
+          '2022': 0.0
+          '2023': 565.0
       yds_rr: 1.46
       av: 6.0
       yac_rec: 3.71
@@ -520,8 +608,16 @@ players:
         dyar: 58.0
         dvoa: 8.9
       catch_pct: 55.9
-      rr: 215.0
-      yards: 331.0
+      rr:
+        total: 215.0
+        all:
+          '2022': 0.0
+          '2023': 215.0
+      yards:
+        total: 331.0
+        all:
+          '2022': 0.0
+          '2023': 331.0
       yds_rr: 1.54
       av: 3.0
       yac_rec: 1.21
@@ -564,8 +660,16 @@ players:
         dyar: 25.0
         dvoa: -9.2
       catch_pct: 67.7
-      rr: 452.0
-      yards: 628.0
+      rr:
+        total: 452.0
+        all:
+          '2022': 0.0
+          '2023': 452.0
+      yards:
+        total: 628.0
+        all:
+          '2022': 0.0
+          '2023': 628.0
       yds_rr: 1.39
       av: 6.0
       yac_rec: 5.89
@@ -608,8 +712,16 @@ players:
         dyar: 82.0
         dvoa: 19.7
       catch_pct: 66.7
-      rr: 236.0
-      yards: 377.0
+      rr:
+        total: 236.0
+        all:
+          '2022': 0.0
+          '2023': 236.0
+      yards:
+        total: 377.0
+        all:
+          '2022': 0.0
+          '2023': 377.0
       yds_rr: 1.6
       av: 5.0
       yac_rec: 7.0
@@ -652,8 +764,16 @@ players:
         dyar: 125.0
         dvoa: 74.0
       catch_pct: 66.7
-      rr: 190.0
-      yards: 246.0
+      rr:
+        total: 190.0
+        all:
+          '2022': 0.0
+          '2023': 190.0
+      yards:
+        total: 246.0
+        all:
+          '2022': 0.0
+          '2023': 246.0
       yds_rr: 1.29
       av: 2.0
       yac_rec: 1.92
@@ -696,8 +816,16 @@ players:
         dyar: -8.0
         dvoa: -17.3
       catch_pct: 62.5
-      rr: 109.0
-      yards: 125.0
+      rr:
+        total: 109.0
+        all:
+          '2022': 0.0
+          '2023': 109.0
+      yards:
+        total: 125.0
+        all:
+          '2022': 0.0
+          '2023': 125.0
       yds_rr: 1.15
       av: 1.0
       yac_rec: 2.33
@@ -740,8 +868,16 @@ players:
         dyar: -14.0
         dvoa: -17.6
       catch_pct: 57.5
-      rr: 364.0
-      yards: 373.0
+      rr:
+        total: 364.0
+        all:
+          '2022': 0.0
+          '2023': 364.0
+      yards:
+        total: 373.0
+        all:
+          '2022': 0.0
+          '2023': 373.0
       yds_rr: 1.02
       av: 3.0
       yac_rec: 2.52
@@ -784,8 +920,16 @@ players:
         dyar: 23.0
         dvoa: -8.6
       catch_pct: 56.7
-      rr: 451.0
-      yards: 431.0
+      rr:
+        total: 451.0
+        all:
+          '2022': 0.0
+          '2023': 451.0
+      yards:
+        total: 431.0
+        all:
+          '2022': 0.0
+          '2023': 431.0
       yds_rr: 0.96
       av: 4.0
       yac_rec: 3.95
@@ -828,8 +972,16 @@ players:
         dyar: -46.0
         dvoa: -29.4
       catch_pct: 55.3
-      rr: 318.0
-      yards: 229.0
+      rr:
+        total: 318.0
+        all:
+          '2022': 0.0
+          '2023': 318.0
+      yards:
+        total: 229.0
+        all:
+          '2022': 0.0
+          '2023': 229.0
       yds_rr: 0.72
       av: 3.0
       yac_rec: 5.43
@@ -872,8 +1024,16 @@ players:
         dyar: -57.0
         dvoa: -29.0
       catch_pct: 47.7
-      rr: 328.0
-      yards: 224.0
+      rr:
+        total: 328.0
+        all:
+          '2022': 0.0
+          '2023': 328.0
+      yards:
+        total: 224.0
+        all:
+          '2022': 0.0
+          '2023': 224.0
       yds_rr: 0.68
       av: 2.0
       yac_rec: 3.38
@@ -916,8 +1076,16 @@ players:
         dyar: -230.0
         dvoa: -47.3
       catch_pct: 50.6
-      rr: 517.0
-      yards: 418.0
+      rr:
+        total: 517.0
+        all:
+          '2022': 0.0
+          '2023': 517.0
+      yards:
+        total: 418.0
+        all:
+          '2022': 0.0
+          '2023': 418.0
       yds_rr: 0.81
       av: 3.0
       yac_rec: 3.77
@@ -960,8 +1128,16 @@ players:
         dyar: -102.0
         dvoa: -31.7
       catch_pct: 57.4
-      rr: 427.0
-      yards: 385.0
+      rr:
+        total: 427.0
+        all:
+          '2022': 0.0
+          '2023': 427.0
+      yards:
+        total: 385.0
+        all:
+          '2022': 0.0
+          '2023': 385.0
       yds_rr: 0.9
       av: 4.0
       yac_rec: 3.03
@@ -1004,8 +1180,16 @@ players:
         dyar: -47.0
         dvoa: -30.9
       catch_pct: 53.1
-      rr: 230.0
-      yards: 168.0
+      rr:
+        total: 230.0
+        all:
+          '2022': 0.0
+          '2023': 230.0
+      yards:
+        total: 168.0
+        all:
+          '2022': 0.0
+          '2023': 168.0
       yds_rr: 0.73
       av: 2.0
       yac_rec: 4.0
@@ -1048,8 +1232,16 @@ players:
         dyar: 17.0
         dvoa: -1.9
       catch_pct: 76.2
-      rr: 166.0
-      yards: 132.0
+      rr:
+        total: 166.0
+        all:
+          '2022': 0.0
+          '2023': 166.0
+      yards:
+        total: 132.0
+        all:
+          '2022': 0.0
+          '2023': 132.0
       yds_rr: 0.8
       av: 1.0
       yac_rec: 2.69
@@ -1092,8 +1284,16 @@ players:
         dyar: 11.0
         dvoa: 7.4
       catch_pct: 62.5
-      rr: 167.0
-      yards: 56.0
+      rr:
+        total: 167.0
+        all:
+          '2022': 0.0
+          '2023': 167.0
+      yards:
+        total: 56.0
+        all:
+          '2022': 0.0
+          '2023': 56.0
       yds_rr: 0.34
       av: 0.0
       yac_rec: 4.6
@@ -1136,13 +1336,73 @@ players:
         dyar: -33.0
         dvoa: -35.0
       catch_pct: 42.1
-      rr: 152.0
-      yards: 90.0
+      rr:
+        total: 152.0
+        all:
+          '2022': 0.0
+          '2023': 152.0
+      yards:
+        total: 90.0
+        all:
+          '2022': 0.0
+          '2023': 90.0
       yds_rr: 0.59
       av: 1.0
       yac_rec: 2.63
       yptoe: -3.5
       xfp_rr: 0.26
+- general:
+    name: ''
+    position: ''
+    team: ''
+  physical:
+    height: null
+    weight: null
+    hands: null
+    arm: null
+    span: null
+  combine:
+    40yd: null
+    10yd: null
+    shuttle: null
+    vertical: null
+    broad: null
+    3cone: null
+  stats:
+    college:
+    - yac_rec: null
+      yds_rr: null
+      aDoT: null
+      drop_pct: null
+      ctc_pct: null
+      pass_rating: null
+      sos: null
+      pff:
+        recv: null
+        drop: null
+        fum: null
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
 - general:
     name: Garrett Wilson
     position: WR
@@ -1180,8 +1440,16 @@ players:
         dyar: -21.51
         dvoa: -14.05
       catch_pct: 58.55
-      rr: 1209.0
-      yards: 2145.0
+      rr:
+        total: 1209.0
+        all:
+          '2022': 595.0
+          '2023': 674.0
+      yards:
+        total: 2145.0
+        all:
+          '2022': 1103.0
+          '2023': 1042.0
       yds_rr: 3.56
       av: 15.0
       yac_rec: 4.01
@@ -1224,8 +1492,16 @@ players:
         dyar: 173.48
         dvoa: 10.4
       catch_pct: 60.85
-      rr: 1056.0
-      yards: 1941.0
+      rr:
+        total: 1056.0
+        all:
+          '2022': 580.0
+          '2023': 581.0
+      yards:
+        total: 1941.0
+        all:
+          '2022': 801.0
+          '2023': 1190.0
       yds_rr: 3.71
       av: 17.0
       yac_rec: 4.64
@@ -1268,8 +1544,16 @@ players:
         dyar: 49.31
         dvoa: -3.68
       catch_pct: 52.14
-      rr: 976.0
-      yards: 1107.0
+      rr:
+        total: 976.0
+        all:
+          '2022': 478.0
+          '2023': 605.0
+      yards:
+        total: 1107.0
+        all:
+          '2022': 593.0
+          '2023': 514.0
       yds_rr: 2.31
       av: 9.0
       yac_rec: 2.97
@@ -1312,8 +1596,16 @@ players:
         dyar: 51.28
         dvoa: -2.36
       catch_pct: 60.43
-      rr: 951.0
-      yards: 1041.0
+      rr:
+        total: 951.0
+        all:
+          '2022': 376.0
+          '2023': 635.0
+      yards:
+        total: 1041.0
+        all:
+          '2022': 523.0
+          '2023': 518.0
       yds_rr: 2.37
       av: 8.0
       yac_rec: 3.14
@@ -1356,8 +1648,16 @@ players:
         dyar: 164.47
         dvoa: 3.58
       catch_pct: 63.86
-      rr: 934.0
-      yards: 2165.0
+      rr:
+        total: 934.0
+        all:
+          '2022': 431.0
+          '2023': 542.0
+      yards:
+        total: 2165.0
+        all:
+          '2022': 1044.0
+          '2023': 1123.0
       yds_rr: 4.67
       av: 18.0
       yac_rec: 3.62
@@ -1400,8 +1700,16 @@ players:
         dyar: 103.44
         dvoa: -1.19
       catch_pct: 63.23
-      rr: 851.0
-      yards: 1771.0
+      rr:
+        total: 851.0
+        all:
+          '2022': 419.0
+          '2023': 485.0
+      yards:
+        total: 1771.0
+        all:
+          '2022': 866.0
+          '2023': 905.0
       yds_rr: 4.18
       av: 16.0
       yac_rec: 3.1
@@ -1444,8 +1752,16 @@ players:
         dyar: 67.42
         dvoa: -5.16
       catch_pct: 62.73
-      rr: 723.0
-      yards: 1099.0
+      rr:
+        total: 723.0
+        all:
+          '2022': 312.0
+          '2023': 555.0
+      yards:
+        total: 1099.0
+        all:
+          '2022': 425.0
+          '2023': 908.0
       yds_rr: 3.07
       av: 11.0
       yac_rec: 3.29
@@ -1488,8 +1804,16 @@ players:
         dyar: 113.92
         dvoa: 15.83
       catch_pct: 66.97
-      rr: 590.0
-      yards: 1206.0
+      rr:
+        total: 590.0
+        all:
+          '2022': 188.0
+          '2023': 431.0
+      yards:
+        total: 1206.0
+        all:
+          '2022': 487.0
+          '2023': 719.0
       yds_rr: 4.51
       av: 12.0
       yac_rec: 4.64
@@ -1532,8 +1856,16 @@ players:
         dyar: 34.21
         dvoa: -4.59
       catch_pct: 78.3
-      rr: 501.0
-      yards: 752.0
+      rr:
+        total: 501.0
+        all:
+          '2022': 129.0
+          '2023': 402.0
+      yards:
+        total: 752.0
+        all:
+          '2022': 227.0
+          '2023': 525.0
       yds_rr: 3.2
       av: 6.0
       yac_rec: 5.23
@@ -1576,8 +1908,16 @@ players:
         dyar: 99.42
         dvoa: 7.41
       catch_pct: 58.47
-      rr: 483.0
-      yards: 1033.0
+      rr:
+        total: 483.0
+        all:
+          '2022': 270.0
+          '2023': 298.0
+      yards:
+        total: 1033.0
+        all:
+          '2022': 611.0
+          '2023': 442.0
       yds_rr: 4.27
       av: 11.0
       yac_rec: 5.39
@@ -1620,8 +1960,16 @@ players:
         dyar: -1.6
         dvoa: -15.3
       catch_pct: 58.33
-      rr: 478.0
-      yards: 665.0
+      rr:
+        total: 478.0
+        all:
+          '2022': 254.0
+          '2023': 266.0
+      yards:
+        total: 665.0
+        all:
+          '2022': 444.0
+          '2023': 221.0
       yds_rr: 2.78
       av: 6.0
       yac_rec: 5.04
@@ -1664,8 +2012,16 @@ players:
         dyar: 173.3
         dvoa: 38.24
       catch_pct: 77.78
-      rr: 421.0
-      yards: 772.0
+      rr:
+        total: 421.0
+        all:
+          '2022': 171.0
+          '2023': 393.0
+      yards:
+        total: 772.0
+        all:
+          '2022': 252.0
+          '2023': 686.0
       yds_rr: 3.4
       av: 8.0
       yac_rec: 7.41
@@ -1708,8 +2064,16 @@ players:
         dyar: 1.53
         dvoa: -11.23
       catch_pct: 62.32
-      rr: 413.0
-      yards: 494.0
+      rr:
+        total: 413.0
+        all:
+          '2022': 208.0
+          '2023': 289.0
+      yards:
+        total: 494.0
+        all:
+          '2022': 267.0
+          '2023': 244.0
       yds_rr: 2.57
       av: 4.0
       yac_rec: 6.09
@@ -1752,8 +2116,16 @@ players:
         dyar: -62.47
         dvoa: -37.65
       catch_pct: 53.03
-      rr: 412.0
-      yards: 338.0
+      rr:
+        total: 412.0
+        all:
+          '2022': 326.0
+          '2023': 137.0
+      yards:
+        total: 338.0
+        all:
+          '2022': 247.0
+          '2023': 91.0
       yds_rr: 1.59
       av: 3.0
       yac_rec: 3.37
@@ -1796,8 +2168,16 @@ players:
         dyar: -11.01
         dvoa: -16.85
       catch_pct: 70.37
-      rr: 406.0
-      yards: 381.0
+      rr:
+        total: 406.0
+        all:
+          '2022': 305.0
+          '2023': 158.0
+      yards:
+        total: 381.0
+        all:
+          '2022': 214.0
+          '2023': 221.0
       yds_rr: 2.1
       av: 3.0
       yac_rec: 3.92
@@ -1840,8 +2220,16 @@ players:
         dyar: 64.16
         dvoa: 18.24
       catch_pct: 64.1
-      rr: 309.0
-      yards: 326.0
+      rr:
+        total: 309.0
+        all:
+          '2022': 128.0
+          '2023': 217.0
+      yards:
+        total: 326.0
+        all:
+          '2022': 42.0
+          '2023': 284.0
       yds_rr: 1.84
       av: 3.0
       yac_rec: 4.2
@@ -1884,8 +2272,16 @@ players:
         dyar: 56.0
         dvoa: 5.36
       catch_pct: 63.16
-      rr: 288.0
-      yards: 280.0
+      rr:
+        total: 288.0
+        all:
+          '2022': 40.0
+          '2023': 300.0
+      yards:
+        total: 280.0
+        all:
+          '2022': 12.0
+          '2023': 268.0
       yds_rr: 1.39
       av: 3.0
       yac_rec: 1.5
@@ -1928,8 +2324,16 @@ players:
         dyar: -1.21
         dvoa: -16.19
       catch_pct: 49.02
-      rr: 261.0
-      yards: 395.0
+      rr:
+        total: 261.0
+        all:
+          '2022': 37.0
+          '2023': 332.0
+      yards:
+        total: 395.0
+        all:
+          '2022': 41.0
+          '2023': 433.0
       yds_rr: 2.67
       av: 5.0
       yac_rec: 4.36
@@ -1972,8 +2376,16 @@ players:
         dyar: -80.9
         dvoa: -62.21
       catch_pct: 62.86
-      rr: 159.0
-      yards: 115.0
+      rr:
+        total: 159.0
+        all:
+          '2022': 45.0
+          '2023': 141.0
+      yards:
+        total: 115.0
+        all:
+          '2022': 32.0
+          '2023': 87.0
       yds_rr: 1.63
       av: 1.0
       yac_rec: 4.82
@@ -2016,8 +2428,16 @@ players:
         dyar: 24.02
         dvoa: 0.92
       catch_pct: 65.71
-      rr: 145.0
-      yards: 259.0
+      rr:
+        total: 145.0
+        all:
+          '2022': 48.0
+          '2023': 111.0
+      yards:
+        total: 259.0
+        all:
+          '2022': 78.0
+          '2023': 181.0
       yds_rr: 3.53
       av: 3.0
       yac_rec: 5.61
@@ -2060,8 +2480,16 @@ players:
         dyar: 5.0
         dvoa: -8.1
       catch_pct: 57.89
-      rr: 118.0
-      yards: 127.0
+      rr:
+        total: 118.0
+        all:
+          '2022': 71.0
+          '2023': 54.0
+      yards:
+        total: 127.0
+        all:
+          '2022': 107.0
+          '2023': 20.0
       yds_rr: 1.97
       av: 3.0
       yac_rec: 5.09
@@ -2104,8 +2532,16 @@ players:
         dyar: -22.0
         dvoa: -39.0
       catch_pct: 62.5
-      rr: 88.0
-      yards: 45.0
+      rr:
+        total: 88.0
+        all:
+          '2022': 93.0
+          '2023': 0.0
+      yards:
+        total: 45.0
+        all:
+          '2022': 45.0
+          '2023': 0.0
       yds_rr: 0.51
       av: 0.0
       yac_rec: 3.8
@@ -2148,8 +2584,16 @@ players:
         dyar: 11.15
         dvoa: -18.36
       catch_pct: 66.67
-      rr: 75.0
-      yards: 208.0
+      rr:
+        total: 75.0
+        all:
+          '2022': 31.0
+          '2023': 53.0
+      yards:
+        total: 208.0
+        all:
+          '2022': 179.0
+          '2023': 29.0
       yds_rr: 8.03
       av: 1.0
       yac_rec: 7.33
@@ -2192,8 +2636,16 @@ players:
         dyar: -63.0
         dvoa: -108.1
       catch_pct: 44.44
-      rr: 53.0
-      yards: 2.0
+      rr:
+        total: 53.0
+        all:
+          '2022': 52.0
+          '2023': 0.0
+      yards:
+        total: 2.0
+        all:
+          '2022': 2.0
+          '2023': 0.0
       yds_rr: 0.04
       av: 0.0
       yac_rec: 3.5
@@ -2236,8 +2688,16 @@ players:
         dyar: -25.0
         dvoa: -73.2
       catch_pct: 33.33
-      rr: 44.0
-      yards: 16.0
+      rr:
+        total: 44.0
+        all:
+          '2022': 48.0
+          '2023': 0.0
+      yards:
+        total: 16.0
+        all:
+          '2022': 16.0
+          '2023': 0.0
       yds_rr: 0.36
       av: 0.0
       yac_rec: 3.0
@@ -2280,8 +2740,16 @@ players:
         dyar: 19.0
         dvoa: 39.7
       catch_pct: 50.0
-      rr: 43.0
-      yards: 75.0
+      rr:
+        total: 43.0
+        all:
+          '2022': 43.0
+          '2023': 0.0
+      yards:
+        total: 75.0
+        all:
+          '2022': 75.0
+          '2023': 0.0
       yds_rr: 1.74
       av: 0.0
       yac_rec: 21.5
@@ -2324,8 +2792,16 @@ players:
         dyar: 12.0
         dvoa: 61.6
       catch_pct: 100.0
-      rr: 32.0
-      yards: 24.0
+      rr:
+        total: 32.0
+        all:
+          '2022': 37.0
+          '2023': 0.0
+      yards:
+        total: 24.0
+        all:
+          '2022': 35.0
+          '2023': 0.0
       yds_rr: 0.83
       av: 0.0
       yac_rec: 12.0
@@ -2368,8 +2844,16 @@ players:
         dyar: -38.0
         dvoa: -108.5
       catch_pct: 0.0
-      rr: 26.0
-      yards: 0.0
+      rr:
+        total: 26.0
+        all:
+          '2022': 29.0
+          '2023': 0.0
+      yards:
+        total: 0.0
+        all:
+          '2022': 0.0
+          '2023': 0.0
       yds_rr: 0.0
       av: 0.0
       yac_rec: 0.0
@@ -2412,8 +2896,16 @@ players:
         dyar: -32.0
         dvoa: -72.2
       catch_pct: 16.67
-      rr: 26.0
-      yards: 10.0
+      rr:
+        total: 26.0
+        all:
+          '2022': 32.0
+          '2023': 0.0
+      yards:
+        total: 10.0
+        all:
+          '2022': 10.0
+          '2023': 0.0
       yds_rr: 0.38
       av: 0.0
       yac_rec: 4.0
@@ -2456,8 +2948,16 @@ players:
         dyar: -28.0
         dvoa: -133.1
       catch_pct: 66.67
-      rr: 18.0
-      yards: 17.0
+      rr:
+        total: 18.0
+        all:
+          '2022': 19.0
+          '2023': 0.0
+      yards:
+        total: 17.0
+        all:
+          '2022': 17.0
+          '2023': 0.0
       yds_rr: 0.94
       av: 0.0
       yac_rec: 1.0
@@ -2500,8 +3000,16 @@ players:
         dyar: 13.0
         dvoa: 57.9
       catch_pct: 100.0
-      rr: 5.0
-      yards: 25.0
+      rr:
+        total: 5.0
+        all:
+          '2022': 5.0
+          '2023': 0.0
+      yards:
+        total: 25.0
+        all:
+          '2022': 25.0
+          '2023': 0.0
       yds_rr: 5.0
       av: 0.0
       yac_rec: 0.0
@@ -2544,8 +3052,16 @@ players:
         dyar: 0.0
         dvoa: 0.0
       catch_pct: 0.0
-      rr: 0.0
-      yards: 0.0
+      rr:
+        total: 0.0
+        all:
+          '2022': 0.0
+          '2023': 0.0
+      yards:
+        total: 0.0
+        all:
+          '2022': 0.0
+          '2023': 0.0
       yds_rr: 0.0
       av: 0.0
       yac_rec: 0.0
