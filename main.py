@@ -62,7 +62,9 @@ class PlayerNormalizer:
     def normalize_players(self, players_data):
         norm_data = {}
         for player in players_data:
-            if player['stats']['nfl'][0]['rr'] < 100: continue
+            total_rr = player['stats']['nfl'][0]['rr']['total']
+            if not total_rr: continue
+            if total_rr < 100: continue
             nfl_stats = self.normalize_nfl_stats(player['stats']['nfl'][0], "nfl_stats")
             physical_stats = self.normalize_stats(player['physical'], "physical")
             combine_stats = self.normalize_stats(player['combine'], "combine")
@@ -97,6 +99,20 @@ class PlayerDataRefiner:
             return round(total / quant, 2)
         except ZeroDivisionError:
             return None
+        
+    def weighted_average(self, lst): 
+        quant = 0
+        total = 0
+        for weight, elem in lst:
+            if elem:
+                quant += weight
+                total += (elem * weight)
+            else:
+                continue
+        try:
+            return round(total / quant, 2)
+        except ZeroDivisionError:
+            return None
     
     def refine_data(self, normalized_data):
         refined_data = {}
@@ -108,17 +124,14 @@ class PlayerDataRefiner:
             avg_speed_accel = self.average([combine_data['40yd'], combine_data['10yd']])
             nfl_data = player_data['nfl_stats']
             print(nfl_data)
-            nfl_avg_1 = self.average(
-                [nfl_data['yds_rr'],
-                nfl_data['yac_rec'],
-                nfl_data['yptoe'],
-                nfl_data['xfp_rr']]
-            )
-            nfl_avg_2 = self.average([
-                nfl_data['pff_recv'],
-                nfl_data['ftn_dyar'],
-                nfl_data['ftn_dvoa'],
-                nfl_avg_1
+            nfl_avg = self.weighted_average([
+                (2, nfl_data['yds_rr']),
+                (1, nfl_data['yac_rec']),
+                (4, nfl_data['yptoe']),
+                (6, nfl_data['xfp_rr']),
+                (8, nfl_data['pff_recv']),
+                (5, nfl_data['ftn_dyar']),
+                (3, nfl_data['ftn_dvoa']),
             ])
             avg_explosive = self.average([
                 combine_data['shuttle'],
@@ -149,7 +162,7 @@ class PlayerDataRefiner:
                 "NFL_PFF": nfl_data['pff_recv'],
                 "NFL_DYAR": nfl_data['ftn_dyar'],
                 "NFL_DVOA": nfl_data['ftn_dvoa'],
-                "NFL" : nfl_avg_2
+                "NFL" : nfl_avg
             }
 
         return refined_data
@@ -186,7 +199,7 @@ def process_and_sort_data(player_stats):
     df['Computed Metric'] = df.apply(compute_new_metric, axis=1)
 
     # Sort the DataFrame by the new column in descending order
-    df_sorted = df.sort_values('Computed Metric', ascending=False)
+    df_sorted = df.sort_values('NFL', ascending=False)
 
     # Print the sorted DataFrame
     print(df_sorted)
