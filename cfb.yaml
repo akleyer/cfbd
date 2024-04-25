@@ -3067,3 +3067,2031 @@ players:
       yac_rec: 0.0
       yptoe: 0.0
       xfp_rr: 0.0
+- general:
+    name: ''
+    position: ''
+    team: ''
+  physical:
+    height: null
+    weight: null
+    hands: null
+    arm: null
+    span: null
+  combine:
+    40yd: null
+    10yd: null
+    shuttle: null
+    vertical: null
+    broad: null
+    3cone: null
+  stats:
+    college:
+    - yac_rec: null
+      yds_rr: null
+      aDoT: null
+      drop_pct: null
+      ctc_pct: null
+      pass_rating: null
+      sos: null
+      pff:
+        recv: null
+        drop: null
+        fum: null
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Marvin Harrison Jr.
+    position: WR
+    team: OSU
+  physical:
+    height: 75.0
+    weight: 209.0
+    hands: 9.5
+    arm: 31.875
+    span: null
+  combine:
+    40yd: null
+    10yd: null
+    shuttle: null
+    vertical: null
+    broad: null
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 6.4
+      yds_rr: 3.44
+      aDoT: 13.1
+      drop_pct: 8.2
+      ctc_pct: 43.3
+      pass_rating: 120.3
+      sos: null
+      pff:
+        recv: 89.6
+        drop: 75.6
+        fum: 69.3
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Malik Nabers
+    position: WR
+    team: LSU
+  physical:
+    height: 72.0
+    weight: 200.0
+    hands: 9.875
+    arm: 31.375
+    span: 76.125
+  combine:
+    40yd: 4.35
+    10yd: null
+    shuttle: null
+    vertical: 42.0
+    broad: 129.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 6.7
+      yds_rr: 3.81
+      aDoT: 12.5
+      drop_pct: 5.5
+      ctc_pct: 47.6
+      pass_rating: 142.7
+      sos: null
+      pff:
+        recv: 93.5
+        drop: 76.6
+        fum: 80.0
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Rome Odunze
+    position: WR
+    team: UWASH
+  physical:
+    height: 75.0
+    weight: 212.0
+    hands: 9.25
+    arm: 32.25
+    span: 76.75
+  combine:
+    40yd: 4.45
+    10yd: 1.52
+    shuttle: 4.03
+    vertical: 39.0
+    broad: 124.0
+    3cone: 6.88
+  stats:
+    college:
+    - yac_rec: 5.3
+      yds_rr: 3.09
+      aDoT: 16.2
+      drop_pct: 3.9
+      ctc_pct: 70.8
+      pass_rating: 123.6
+      sos: null
+      pff:
+        recv: 88.1
+        drop: 40.9
+        fum: 83.7
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Adonai Mitchell
+    position: WR
+    team: TEXAS
+  physical:
+    height: 74.0
+    weight: 205.0
+    hands: 9.0
+    arm: 32.75
+    span: null
+  combine:
+    40yd: 4.34
+    10yd: 1.52
+    shuttle: null
+    vertical: 39.5
+    broad: 136.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 3.0
+      yds_rr: 1.79
+      aDoT: 16.2
+      drop_pct: 2.2
+      ctc_pct: 33.3
+      pass_rating: 125.2
+      sos: null
+      pff:
+        recv: 74.7
+        drop: 45.4
+        fum: 86.8
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Brian Thomas Jr.
+    position: WR
+    team: LSU
+  physical:
+    height: 75.0
+    weight: 209.0
+    hands: 9.75
+    arm: 32.75
+    span: 79.25
+  combine:
+    40yd: 4.33
+    10yd: 1.5
+    shuttle: null
+    vertical: 38.5
+    broad: 126.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 6.1
+      yds_rr: 2.65
+      aDoT: 13.7
+      drop_pct: 7.7
+      ctc_pct: 58.3
+      pass_rating: 152.7
+      sos: null
+      pff:
+        recv: 74.5
+        drop: 49.4
+        fum: 69.8
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Troy Franklin
+    position: WR
+    team: OREG
+  physical:
+    height: 74.0
+    weight: 176.0
+    hands: 8.75
+    arm: 31.875
+    span: 77.25
+  combine:
+    40yd: 4.41
+    10yd: 1.61
+    shuttle: 4.31
+    vertical: 39.0
+    broad: 124.0
+    3cone: 6.9
+  stats:
+    college:
+    - yac_rec: 6.8
+      yds_rr: 3.55
+      aDoT: 13.0
+      drop_pct: 10.5
+      ctc_pct: 37.5
+      pass_rating: 150.9
+      sos: null
+      pff:
+        recv: 88.5
+        drop: 75.9
+        fum: 61.7
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Ladd McConkey
+    position: WR
+    team: GEOR
+  physical:
+    height: 72.0
+    weight: 186.0
+    hands: 8.625
+    arm: 30.25
+    span: 72.75
+  combine:
+    40yd: 4.39
+    10yd: 1.52
+    shuttle: null
+    vertical: 36.0
+    broad: 124.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 6.3
+      yds_rr: 3.62
+      aDoT: 12.3
+      drop_pct: 7.1
+      ctc_pct: 33.3
+      pass_rating: 140.3
+      sos: null
+      pff:
+        recv: 81.7
+        drop: 71.9
+        fum: 69.5
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Keon Coleman
+    position: WR
+    team: FSU
+  physical:
+    height: 75.0
+    weight: 213.0
+    hands: 9.375
+    arm: 32.125
+    span: null
+  combine:
+    40yd: 4.61
+    10yd: 1.54
+    shuttle: null
+    vertical: 38.0
+    broad: 127.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 6.2
+      yds_rr: 1.82
+      aDoT: 12.8
+      drop_pct: 0.0
+      ctc_pct: 33.3
+      pass_rating: 112.4
+      sos: null
+      pff:
+        recv: 72.7
+        drop: 68.7
+        fum: 91.9
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Roman Wilson
+    position: WR
+    team: UMICH
+  physical:
+    height: 71.0
+    weight: 185.0
+    hands: 9.375
+    arm: 30.375
+    span: 72.25
+  combine:
+    40yd: 4.39
+    10yd: 1.52
+    shuttle: 4.07
+    vertical: null
+    broad: null
+    3cone: 6.89
+  stats:
+    college:
+    - yac_rec: 3.7
+      yds_rr: 2.97
+      aDoT: 14.8
+      drop_pct: 2.4
+      ctc_pct: 60.0
+      pass_rating: 143.8
+      sos: null
+      pff:
+        recv: 85.9
+        drop: 73.2
+        fum: 84.5
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Ricky Pearsall
+    position: WR
+    team: FLOR
+  physical:
+    height: 73.0
+    weight: 189.0
+    hands: 9.25
+    arm: 30.875
+    span: 73.625
+  combine:
+    40yd: 4.41
+    10yd: 1.57
+    shuttle: 4.05
+    vertical: 42.0
+    broad: 129.0
+    3cone: 6.64
+  stats:
+    college:
+    - yac_rec: 5.8
+      yds_rr: 2.23
+      aDoT: 11.0
+      drop_pct: 3.0
+      ctc_pct: 50.0
+      pass_rating: 116.2
+      sos: null
+      pff:
+        recv: 77.8
+        drop: 65.5
+        fum: 86.8
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Ja'Lynn Polk
+    position: WR
+    team: UWASH
+  physical:
+    height: 73.0
+    weight: 203.0
+    hands: 9.75
+    arm: 31.75
+    span: 74.5
+  combine:
+    40yd: 4.52
+    10yd: 1.52
+    shuttle: null
+    vertical: 37.5
+    broad: 129.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 4.4
+      yds_rr: 2.42
+      aDoT: 14.5
+      drop_pct: 6.8
+      ctc_pct: 55.0
+      pass_rating: 121.0
+      sos: null
+      pff:
+        recv: 76.1
+        drop: 49.8
+        fum: 73.0
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Xavier Lagette
+    position: WR
+    team: SC
+  physical:
+    height: 71.0
+    weight: 221.0
+    hands: 9.0
+    arm: 31.875
+    span: 77.25
+  combine:
+    40yd: 4.39
+    10yd: 1.54
+    shuttle: null
+    vertical: 40.0
+    broad: 126.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 6.4
+      yds_rr: 3.15
+      aDoT: 13.8
+      drop_pct: 2.7
+      ctc_pct: 47.6
+      pass_rating: 126.3
+      sos: null
+      pff:
+        recv: 86.9
+        drop: 77.6
+        fum: 88.1
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Malachi Corley
+    position: WR
+    team: WKU
+  physical:
+    height: 71.0
+    weight: 215.0
+    hands: 9.125
+    arm: 32.125
+    span: 75.5
+  combine:
+    40yd: 4.46
+    10yd: null
+    shuttle: null
+    vertical: null
+    broad: null
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 8.6
+      yds_rr: 2.79
+      aDoT: 5.8
+      drop_pct: 7.4
+      ctc_pct: 23.5
+      pass_rating: 117.2
+      sos: null
+      pff:
+        recv: 82.1
+        drop: 36.9
+        fum: 65.3
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Xavier Worthy
+    position: WR
+    team: TEXAS
+  physical:
+    height: 71.0
+    weight: 165.0
+    hands: 8.75
+    arm: 31.125
+    span: null
+  combine:
+    40yd: 4.21
+    10yd: 1.49
+    shuttle: null
+    vertical: 41.0
+    broad: 131.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 6.9
+      yds_rr: 2.31
+      aDoT: 10.3
+      drop_pct: 6.9
+      ctc_pct: 25.0
+      pass_rating: 100.1
+      sos: null
+      pff:
+        recv: 73.4
+        drop: 57.0
+        fum: 72.9
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Jermaine Burton
+    position: WR
+    team: BAMA
+  physical:
+    height: 72.0
+    weight: 196.0
+    hands: 9.875
+    arm: 31.0
+    span: null
+  combine:
+    40yd: 4.45
+    10yd: 1.53
+    shuttle: null
+    vertical: 38.5
+    broad: 133.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 3.8
+      yds_rr: 3.12
+      aDoT: 20.6
+      drop_pct: 0.0
+      ctc_pct: 58.3
+      pass_rating: 125.7
+      sos: null
+      pff:
+        recv: 84.9
+        drop: 35.8
+        fum: 90.3
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Devontez Walker
+    position: WR
+    team: UNC
+  physical:
+    height: 74.0
+    weight: 193.0
+    hands: 9.125
+    arm: 33.25
+    span: 79.125
+  combine:
+    40yd: 4.36
+    10yd: 1.54
+    shuttle: 4.3
+    vertical: 40.5
+    broad: 134.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 2.8
+      yds_rr: 2.28
+      aDoT: 18.2
+      drop_pct: 6.8
+      ctc_pct: 58.8
+      pass_rating: 114.4
+      sos: null
+      pff:
+        recv: 68.3
+        drop: 44.4
+        fum: 72.1
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Javon Baker
+    position: WR
+    team: UCF
+  physical:
+    height: 73.0
+    weight: 202.0
+    hands: 9.625
+    arm: 32.25
+    span: 78.0
+  combine:
+    40yd: 4.54
+    10yd: 1.58
+    shuttle: null
+    vertical: 37.0
+    broad: 121.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 7.4
+      yds_rr: 3.03
+      aDoT: 17.2
+      drop_pct: 12.2
+      ctc_pct: 46.2
+      pass_rating: 115.2
+      sos: null
+      pff:
+        recv: 81.3
+        drop: 73.2
+        fum: 54.6
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Johnny Wilson
+    position: WR
+    team: FSU
+  physical:
+    height: 78.0
+    weight: 231.0
+    hands: 10.0
+    arm: 35.375
+    span: 84.375
+  combine:
+    40yd: 4.52
+    10yd: 1.55
+    shuttle: 4.11
+    vertical: 37.0
+    broad: 128.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 3.6
+      yds_rr: 2.61
+      aDoT: 14.3
+      drop_pct: 11.4
+      ctc_pct: 40.0
+      pass_rating: 99.1
+      sos: null
+      pff:
+        recv: 75.2
+        drop: 72.9
+        fum: 58.3
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Jalen McMillan
+    position: WR
+    team: UWASH
+  physical:
+    height: 73.0
+    weight: 197.0
+    hands: 10.0
+    arm: 32.125
+    span: 77.375
+  combine:
+    40yd: 4.47
+    10yd: 1.53
+    shuttle: 4.18
+    vertical: 37.0
+    broad: 127.0
+    3cone: 6.94
+  stats:
+    college:
+    - yac_rec: 7.5
+      yds_rr: 2.45
+      aDoT: 10.1
+      drop_pct: 16.7
+      ctc_pct: 0.0
+      pass_rating: 133.3
+      sos: null
+      pff:
+        recv: 65.5
+        drop: 44.4
+        fum: 43.1
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Malik Washington
+    position: WR
+    team: UVA
+  physical:
+    height: 68.0
+    weight: 191.0
+    hands: 9.25
+    arm: 30.375
+    span: 73.25
+  combine:
+    40yd: 4.47
+    10yd: 1.53
+    shuttle: null
+    vertical: 42.5
+    broad: 126.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 6.4
+      yds_rr: 3.15
+      aDoT: 8.1
+      drop_pct: 2.6
+      ctc_pct: 64.7
+      pass_rating: 115.1
+      sos: null
+      pff:
+        recv: 92.4
+        drop: 79.3
+        fum: 91.3
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Jamari Thrash
+    position: WR
+    team: LOUS
+  physical:
+    height: 72.0
+    weight: 188.0
+    hands: 8.625
+    arm: 31.0
+    span: 75.0
+  combine:
+    40yd: 4.46
+    10yd: 1.54
+    shuttle: null
+    vertical: 34.0
+    broad: 120.0
+    3cone: 7.16
+  stats:
+    college:
+    - yac_rec: 7.0
+      yds_rr: 2.5
+      aDoT: 11.6
+      drop_pct: 11.3
+      ctc_pct: 21.4
+      pass_rating: 109.8
+      sos: null
+      pff:
+        recv: 79.1
+        drop: 49.3
+        fum: 59.4
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Jacob Cowing
+    position: WR
+    team: UARIZ
+  physical:
+    height: 68.0
+    weight: 168.0
+    hands: 9.0
+    arm: 29.25
+    span: 69.25
+  combine:
+    40yd: 4.38
+    10yd: 1.54
+    shuttle: 4.32
+    vertical: 36.0
+    broad: 119.0
+    3cone: 7.02
+  stats:
+    college:
+    - yac_rec: 5.7
+      yds_rr: 1.75
+      aDoT: 5.9
+      drop_pct: 6.8
+      ctc_pct: 30.8
+      pass_rating: 107.6
+      sos: null
+      pff:
+        recv: 74.6
+        drop: 54.2
+        fum: 70.1
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Ainias Smith
+    position: WR
+    team: TA&M
+  physical:
+    height: 69.0
+    weight: 190.0
+    hands: 8.5
+    arm: 29.0
+    span: 70.5
+  combine:
+    40yd: 4.48
+    10yd: null
+    shuttle: 4.27
+    vertical: null
+    broad: null
+    3cone: 6.86
+  stats:
+    college:
+    - yac_rec: 6.7
+      yds_rr: 2.27
+      aDoT: 10.4
+      drop_pct: 1.9
+      ctc_pct: 55.6
+      pass_rating: 93.7
+      sos: null
+      pff:
+        recv: 79.5
+        drop: 71.8
+        fum: 88.8
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Brenden Rice
+    position: WR
+    team: USC
+  physical:
+    height: 74.0
+    weight: 208.0
+    hands: 9.625
+    arm: 33.0
+    span: 77.5
+  combine:
+    40yd: 4.5
+    10yd: 1.55
+    shuttle: 4.32
+    vertical: 36.5
+    broad: 119.0
+    3cone: 6.94
+  stats:
+    college:
+    - yac_rec: 5.2
+      yds_rr: 2.75
+      aDoT: 15.1
+      drop_pct: 4.3
+      ctc_pct: 25.0
+      pass_rating: 136.4
+      sos: null
+      pff:
+        recv: 79.4
+        drop: 43.2
+        fum: 80.3
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Tahj Washington
+    position: WR
+    team: USC
+  physical:
+    height: 70.0
+    weight: 174.0
+    hands: 8.375
+    arm: 29.125
+    span: 70.375
+  combine:
+    40yd: 4.52
+    10yd: null
+    shuttle: 4.22
+    vertical: 35.0
+    broad: 122.0
+    3cone: 6.81
+  stats:
+    college:
+    - yac_rec: 9.0
+      yds_rr: 2.95
+      aDoT: 10.9
+      drop_pct: 1.9
+      ctc_pct: 60.0
+      pass_rating: 142.4
+      sos: null
+      pff:
+        recv: 82.9
+        drop: 74.4
+        fum: 88.4
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Isiah Williams
+    position: WR
+    team: ILLI
+  physical:
+    height: 69.0
+    weight: 182.0
+    hands: 9.125
+    arm: 30.125
+    span: 72.75
+  combine:
+    40yd: 4.63
+    10yd: 1.59
+    shuttle: 4.13
+    vertical: 38.0
+    broad: 123.0
+    3cone: 6.75
+  stats:
+    college:
+    - yac_rec: 6.7
+      yds_rr: 2.51
+      aDoT: 8.5
+      drop_pct: 6.8
+      ctc_pct: 21.4
+      pass_rating: 93.8
+      sos: null
+      pff:
+        recv: 80.9
+        drop: 72.2
+        fum: 74.6
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Luke McCaffrey
+    position: WR
+    team: RICE
+  physical:
+    height: 74.0
+    weight: 198.0
+    hands: 9.625
+    arm: 30.125
+    span: 74.625
+  combine:
+    40yd: 4.46
+    10yd: 1.52
+    shuttle: 4.02
+    vertical: 36.0
+    broad: 121.0
+    3cone: 6.7
+  stats:
+    college:
+    - yac_rec: 6.0
+      yds_rr: 2.2
+      aDoT: 10.9
+      drop_pct: 4.2
+      ctc_pct: 60.7
+      pass_rating: 99.9
+      sos: null
+      pff:
+        recv: 84.2
+        drop: 77.4
+        fum: 83.5
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Cornelius Johnson
+    position: WR
+    team: UMICH
+  physical:
+    height: 75.0
+    weight: 212.0
+    hands: 8.625
+    arm: 31.875
+    span: 76.875
+  combine:
+    40yd: 4.44
+    10yd: 1.55
+    shuttle: 4.37
+    vertical: 37.5
+    broad: 127.0
+    3cone: 6.93
+  stats:
+    college:
+    - yac_rec: 3.3
+      yds_rr: 1.93
+      aDoT: 13.2
+      drop_pct: 10.8
+      ctc_pct: 87.5
+      pass_rating: 103.4
+      sos: null
+      pff:
+        recv: 70.8
+        drop: 72.8
+        fum: 59.6
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Jha'Quan Jackson
+    position: WR
+    team: TULA
+  physical:
+    height: 69.0
+    weight: 188.0
+    hands: 8.875
+    arm: 30.875
+    span: 74.875
+  combine:
+    40yd: 4.42
+    10yd: 1.55
+    shuttle: null
+    vertical: 32.0
+    broad: 118.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 6.4
+      yds_rr: 2.46
+      aDoT: 12.1
+      drop_pct: 11.1
+      ctc_pct: 37.5
+      pass_rating: 116.0
+      sos: null
+      pff:
+        recv: 74.0
+        drop: 82.7
+        fum: 58.4
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Marcus Rosemy-Jacksaint
+    position: WR
+    team: GEOR
+  physical:
+    height: 73.0
+    weight: 195.0
+    hands: 10.0
+    arm: 33.0
+    span: 77.75
+  combine:
+    40yd: 4.81
+    10yd: 4.45
+    shuttle: null
+    vertical: 35.0
+    broad: 119.0
+    3cone: 7.35
+  stats:
+    college:
+    - yac_rec: 5.1
+      yds_rr: 2.45
+      aDoT: 12.1
+      drop_pct: 0.0
+      ctc_pct: 55.6
+      pass_rating: 127.3
+      sos: null
+      pff:
+        recv: 74.4
+        drop: 71.7
+        fum: 89.2
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Jordan Whittington
+    position: WR
+    team: TEXAS
+  physical:
+    height: 73.0
+    weight: 205.0
+    hands: 10.0
+    arm: 30.375
+    span: null
+  combine:
+    40yd: 4.47
+    10yd: null
+    shuttle: null
+    vertical: null
+    broad: null
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 5.6
+      yds_rr: 1.45
+      aDoT: 6.8
+      drop_pct: 8.3
+      ctc_pct: 0.0
+      pass_rating: 103.2
+      sos: null
+      pff:
+        recv: 63.0
+        drop: 73.7
+        fum: 60.1
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Anthony Gould
+    position: WR
+    team: OREGST
+  physical:
+    height: 68.0
+    weight: 174.0
+    hands: 8.875
+    arm: 29.625
+    span: 69.875
+  combine:
+    40yd: 4.39
+    10yd: 1.49
+    shuttle: 4.16
+    vertical: 39.5
+    broad: 129.0
+    3cone: 6.94
+  stats:
+    college:
+    - yac_rec: 5.8
+      yds_rr: 2.54
+      aDoT: 13.6
+      drop_pct: 8.3
+      ctc_pct: 44.4
+      pass_rating: 88.5
+      sos: null
+      pff:
+        recv: 74.1
+        drop: 44.0
+        fum: 67.0
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Tayvion Robinson
+    position: WR
+    team: UK
+  physical:
+    height: 70.0
+    weight: 191.0
+    hands: 9.25
+    arm: 31.0
+    span: 75.75
+  combine:
+    40yd: 4.55
+    10yd: null
+    shuttle: null
+    vertical: 32.0
+    broad: 117.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 6.0
+      yds_rr: 1.91
+      aDoT: 9.6
+      drop_pct: 9.8
+      ctc_pct: 75.0
+      pass_rating: 98.6
+      sos: null
+      pff:
+        recv: 74.1
+        drop: 82.9
+        fum: 63.9
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Joshua Cephus
+    position: WR
+    team: UTSA
+  physical:
+    height: 74.0
+    weight: 185.0
+    hands: 9.125
+    arm: 31.625
+    span: 76.0
+  combine:
+    40yd: 4.62
+    10yd: null
+    shuttle: 4.37
+    vertical: 32.5
+    broad: 122.0
+    3cone: 7.12
+  stats:
+    college:
+    - yac_rec: 6.7
+      yds_rr: 2.35
+      aDoT: 9.5
+      drop_pct: 1.2
+      ctc_pct: 27.8
+      pass_rating: 122.5
+      sos: null
+      pff:
+        recv: 88.4
+        drop: 77.4
+        fum: 92.9
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Bub Means
+    position: WR
+    team: PITT
+  physical:
+    height: 73.0
+    weight: 212.0
+    hands: 10.125
+    arm: 33.25
+    span: 79.0
+  combine:
+    40yd: 4.43
+    10yd: 1.55
+    shuttle: null
+    vertical: 39.5
+    broad: 122.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 5.2
+      yds_rr: 2.14
+      aDoT: 17.7
+      drop_pct: 4.7
+      ctc_pct: 50.0
+      pass_rating: 94.5
+      sos: null
+      pff:
+        recv: 72.0
+        drop: 40.2
+        fum: 78.1
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Lideatrick Griffin
+    position: WR
+    team: MISSST
+  physical:
+    height: 70.0
+    weight: 181.0
+    hands: 9.125
+    arm: 30.625
+    span: 73.25
+  combine:
+    40yd: 4.43
+    10yd: 1.55
+    shuttle: 4.35
+    vertical: 35.5
+    broad: 124.0
+    3cone: 7.0
+  stats:
+    college:
+    - yac_rec: 8.2
+      yds_rr: 2.25
+      aDoT: 7.1
+      drop_pct: 9.1
+      ctc_pct: 60.0
+      pass_rating: 106.5
+      sos: null
+      pff:
+        recv: 72.4
+        drop: 78.9
+        fum: 65.5
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Zakhari Franklin
+    position: WR
+    team: OLEMIS
+  physical:
+    height: 73.0
+    weight: 185.0
+    hands: 10.375
+    arm: 33.0
+    span: 79.0
+  combine:
+    40yd: 4.49
+    10yd: null
+    shuttle: null
+    vertical: null
+    broad: null
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 0.3
+      yds_rr: 0.54
+      aDoT: 11.8
+      drop_pct: 0.0
+      ctc_pct: null
+      pass_rating: 63.0
+      sos: null
+      pff:
+        recv: 55.1
+        drop: 65.0
+        fum: 74.9
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
+- general:
+    name: Devaughn Vele
+    position: WR
+    team: UTAH
+  physical:
+    height: 76.0
+    weight: 203.0
+    hands: 9.75
+    arm: 33.5
+    span: null
+  combine:
+    40yd: 4.47
+    10yd: 1.53
+    shuttle: null
+    vertical: 36.0
+    broad: 126.0
+    3cone: null
+  stats:
+    college:
+    - yac_rec: 3.4
+      yds_rr: 1.81
+      aDoT: 11.8
+      drop_pct: 4.4
+      ctc_pct: 42.9
+      pass_rating: 91.0
+      sos: null
+      pff:
+        recv: 69.1
+        drop: 73.4
+        fum: 78.9
+    nfl:
+    - pff:
+        recv: null
+      ftn:
+        dyar: null
+        dvoa: null
+      catch_pct: null
+      rr:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yards:
+        total: null
+        all:
+          '2022': null
+          '2023': null
+      yds_rr: null
+      av: null
+      yac_rec: null
+      yptoe: null
+      xfp_rr: null
