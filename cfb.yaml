@@ -2964,58 +2964,6 @@ players:
       yptoe: 3.5
       xfp_rr: 0.68
 - general:
-    name: Samouri Toure
-    position: WR
-    team: NEBR
-  physical:
-    height: 74.0
-    weight: 191.0
-    hands: null
-    arm: null
-    span: null
-  combine:
-    40yd: null
-    10yd: null
-    shuttle: null
-    vertical: null
-    broad: null
-    3cone: null
-  stats:
-    college:
-    - yac_rec: null
-      yds_rr: null
-      aDoT: null
-      drop_pct: null
-      ctc_pct: null
-      pass_rating: null
-      sos: 9.3
-      pff:
-        recv: null
-        drop: null
-        fum: null
-    nfl:
-    - pff:
-        recv: 0.0
-      ftn:
-        dyar: 0.0
-        dvoa: 0.0
-      catch_pct: 0.0
-      rr:
-        total: 0.0
-        all:
-          '2022': 0.0
-          '2023': 0.0
-      yards:
-        total: 0.0
-        all:
-          '2022': 0.0
-          '2023': 0.0
-      yds_rr: 0.0
-      av: 0.0
-      yac_rec: 0.0
-      yptoe: 0.0
-      xfp_rr: 0.0
-- general:
     name: Marvin Harrison Jr.
     position: WR
     team: OSU
@@ -3040,33 +2988,13 @@ players:
       drop_pct: 8.2
       ctc_pct: 43.3
       pass_rating: 120.3
-      sos: null
+      sos: 13.5
       pff:
         recv: 89.6
         drop: 75.6
         fum: 69.3
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Malik Nabers
     position: WR
@@ -3092,33 +3020,13 @@ players:
       drop_pct: 5.5
       ctc_pct: 47.6
       pass_rating: 142.7
-      sos: null
+      sos: 11.7
       pff:
         recv: 93.5
         drop: 76.6
         fum: 80.0
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Rome Odunze
     position: WR
@@ -3144,33 +3052,13 @@ players:
       drop_pct: 3.9
       ctc_pct: 70.8
       pass_rating: 123.6
-      sos: null
+      sos: 12.5
       pff:
         recv: 88.1
         drop: 40.9
         fum: 83.7
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Adonai Mitchell
     position: WR
@@ -3196,33 +3084,13 @@ players:
       drop_pct: 2.2
       ctc_pct: 33.3
       pass_rating: 125.2
-      sos: null
+      sos: 11.7
       pff:
         recv: 74.7
         drop: 45.4
         fum: 86.8
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Brian Thomas Jr.
     position: WR
@@ -3248,33 +3116,13 @@ players:
       drop_pct: 7.7
       ctc_pct: 58.3
       pass_rating: 152.7
-      sos: null
+      sos: 11.7
       pff:
         recv: 74.5
         drop: 49.4
         fum: 69.8
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Troy Franklin
     position: WR
@@ -3300,33 +3148,13 @@ players:
       drop_pct: 10.5
       ctc_pct: 37.5
       pass_rating: 150.9
-      sos: null
+      sos: 9.5
       pff:
         recv: 88.5
         drop: 75.9
         fum: 61.7
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Ladd McConkey
     position: WR
@@ -3352,33 +3180,13 @@ players:
       drop_pct: 7.1
       ctc_pct: 33.3
       pass_rating: 140.3
-      sos: null
+      sos: 12.7
       pff:
         recv: 81.7
         drop: 71.9
         fum: 69.5
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Keon Coleman
     position: WR
@@ -3404,33 +3212,13 @@ players:
       drop_pct: 0.0
       ctc_pct: 33.3
       pass_rating: 112.4
-      sos: null
+      sos: 9.2
       pff:
         recv: 72.7
         drop: 68.7
         fum: 91.9
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Roman Wilson
     position: WR
@@ -3456,33 +3244,13 @@ players:
       drop_pct: 2.4
       ctc_pct: 60.0
       pass_rating: 143.8
-      sos: null
+      sos: 13.4
       pff:
         recv: 85.9
         drop: 73.2
         fum: 84.5
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Ricky Pearsall
     position: WR
@@ -3508,33 +3276,13 @@ players:
       drop_pct: 3.0
       ctc_pct: 50.0
       pass_rating: 116.2
-      sos: null
+      sos: 8.3
       pff:
         recv: 77.8
         drop: 65.5
         fum: 86.8
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Ja'Lynn Polk
     position: WR
@@ -3560,33 +3308,13 @@ players:
       drop_pct: 6.8
       ctc_pct: 55.0
       pass_rating: 121.0
-      sos: null
+      sos: 12.5
       pff:
         recv: 76.1
         drop: 49.8
         fum: 73.0
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Xavier Lagette
     position: WR
@@ -3612,33 +3340,13 @@ players:
       drop_pct: 2.7
       ctc_pct: 47.6
       pass_rating: 126.3
-      sos: null
+      sos: 6.9
       pff:
         recv: 86.9
         drop: 77.6
         fum: 88.1
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Malachi Corley
     position: WR
@@ -3664,33 +3372,13 @@ players:
       drop_pct: 7.4
       ctc_pct: 23.5
       pass_rating: 117.2
-      sos: null
+      sos: -7.1
       pff:
         recv: 82.1
         drop: 36.9
         fum: 65.3
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Xavier Worthy
     position: WR
@@ -3716,33 +3404,13 @@ players:
       drop_pct: 6.9
       ctc_pct: 25.0
       pass_rating: 100.1
-      sos: null
+      sos: 11.7
       pff:
         recv: 73.4
         drop: 57.0
         fum: 72.9
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Jermaine Burton
     position: WR
@@ -3768,33 +3436,13 @@ players:
       drop_pct: 0.0
       ctc_pct: 58.3
       pass_rating: 125.7
-      sos: null
+      sos: 15.2
       pff:
         recv: 84.9
         drop: 35.8
         fum: 90.3
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Devontez Walker
     position: WR
@@ -3820,33 +3468,13 @@ players:
       drop_pct: 6.8
       ctc_pct: 58.8
       pass_rating: 114.4
-      sos: null
+      sos: 3.1
       pff:
         recv: 68.3
         drop: 44.4
         fum: 72.1
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Javon Baker
     position: WR
@@ -3872,33 +3500,13 @@ players:
       drop_pct: 12.2
       ctc_pct: 46.2
       pass_rating: 115.2
-      sos: null
+      sos: 3.8
       pff:
         recv: 81.3
         drop: 73.2
         fum: 54.6
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Johnny Wilson
     position: WR
@@ -3924,33 +3532,13 @@ players:
       drop_pct: 11.4
       ctc_pct: 40.0
       pass_rating: 99.1
-      sos: null
+      sos: 9.2
       pff:
         recv: 75.2
         drop: 72.9
         fum: 58.3
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Jalen McMillan
     position: WR
@@ -3976,33 +3564,13 @@ players:
       drop_pct: 16.7
       ctc_pct: 0.0
       pass_rating: 133.3
-      sos: null
+      sos: 12.5
       pff:
         recv: 65.5
         drop: 44.4
         fum: 43.1
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Malik Washington
     position: WR
@@ -4028,33 +3596,13 @@ players:
       drop_pct: 2.6
       ctc_pct: 64.7
       pass_rating: 115.1
-      sos: null
+      sos: 3
       pff:
         recv: 92.4
         drop: 79.3
         fum: 91.3
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Jamari Thrash
     position: WR
@@ -4080,33 +3628,13 @@ players:
       drop_pct: 11.3
       ctc_pct: 21.4
       pass_rating: 109.8
-      sos: null
+      sos: 6.2
       pff:
         recv: 79.1
         drop: 49.3
         fum: 59.4
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Jacob Cowing
     position: WR
@@ -4132,33 +3660,13 @@ players:
       drop_pct: 6.8
       ctc_pct: 30.8
       pass_rating: 107.6
-      sos: null
+      sos: 6.2
       pff:
         recv: 74.6
         drop: 54.2
         fum: 70.1
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Ainias Smith
     position: WR
@@ -4184,33 +3692,13 @@ players:
       drop_pct: 1.9
       ctc_pct: 55.6
       pass_rating: 93.7
-      sos: null
+      sos: 9
       pff:
         recv: 79.5
         drop: 71.8
         fum: 88.8
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Brenden Rice
     position: WR
@@ -4236,33 +3724,13 @@ players:
       drop_pct: 4.3
       ctc_pct: 25.0
       pass_rating: 136.4
-      sos: null
+      sos: 8.4
       pff:
         recv: 79.4
         drop: 43.2
         fum: 80.3
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Tahj Washington
     position: WR
@@ -4288,33 +3756,13 @@ players:
       drop_pct: 1.9
       ctc_pct: 60.0
       pass_rating: 142.4
-      sos: null
+      sos: 8.4
       pff:
         recv: 82.9
         drop: 74.4
         fum: 88.4
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Isiah Williams
     position: WR
@@ -4340,33 +3788,13 @@ players:
       drop_pct: 6.8
       ctc_pct: 21.4
       pass_rating: 93.8
-      sos: null
+      sos: 2.5
       pff:
         recv: 80.9
         drop: 72.2
         fum: 74.6
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Luke McCaffrey
     position: WR
@@ -4392,33 +3820,13 @@ players:
       drop_pct: 4.2
       ctc_pct: 60.7
       pass_rating: 99.9
-      sos: null
+      sos: -5.8
       pff:
         recv: 84.2
         drop: 77.4
         fum: 83.5
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Cornelius Johnson
     position: WR
@@ -4444,33 +3852,13 @@ players:
       drop_pct: 10.8
       ctc_pct: 87.5
       pass_rating: 103.4
-      sos: null
+      sos: 13.4
       pff:
         recv: 70.8
         drop: 72.8
         fum: 59.6
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Jha'Quan Jackson
     position: WR
@@ -4496,33 +3884,13 @@ players:
       drop_pct: 11.1
       ctc_pct: 37.5
       pass_rating: 116.0
-      sos: null
+      sos: -1.8
       pff:
         recv: 74.0
         drop: 82.7
         fum: 58.4
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Marcus Rosemy-Jacksaint
     position: WR
@@ -4548,33 +3916,13 @@ players:
       drop_pct: 0.0
       ctc_pct: 55.6
       pass_rating: 127.3
-      sos: null
+      sos: 12.7
       pff:
         recv: 74.4
         drop: 71.7
         fum: 89.2
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Jordan Whittington
     position: WR
@@ -4600,33 +3948,13 @@ players:
       drop_pct: 8.3
       ctc_pct: 0.0
       pass_rating: 103.2
-      sos: null
+      sos: 11.7
       pff:
         recv: 63.0
         drop: 73.7
         fum: 60.1
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Anthony Gould
     position: WR
@@ -4652,33 +3980,13 @@ players:
       drop_pct: 8.3
       ctc_pct: 44.4
       pass_rating: 88.5
-      sos: null
+      sos: 7.8
       pff:
         recv: 74.1
         drop: 44.0
         fum: 67.0
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Tayvion Robinson
     position: WR
@@ -4704,33 +4012,13 @@ players:
       drop_pct: 9.8
       ctc_pct: 75.0
       pass_rating: 98.6
-      sos: null
+      sos: 6.8
       pff:
         recv: 74.1
         drop: 82.9
         fum: 63.9
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Joshua Cephus
     position: WR
@@ -4756,33 +4044,13 @@ players:
       drop_pct: 1.2
       ctc_pct: 27.8
       pass_rating: 122.5
-      sos: null
+      sos: -4.3
       pff:
         recv: 88.4
         drop: 77.4
         fum: 92.9
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Bub Means
     position: WR
@@ -4808,33 +4076,13 @@ players:
       drop_pct: 4.7
       ctc_pct: 50.0
       pass_rating: 94.5
-      sos: null
+      sos: 2.3
       pff:
         recv: 72.0
         drop: 40.2
         fum: 78.1
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Lideatrick Griffin
     position: WR
@@ -4860,33 +4108,13 @@ players:
       drop_pct: 9.1
       ctc_pct: 60.0
       pass_rating: 106.5
-      sos: null
+      sos: 4.4
       pff:
         recv: 72.4
         drop: 78.9
         fum: 65.5
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Zakhari Franklin
     position: WR
@@ -4912,33 +4140,13 @@ players:
       drop_pct: 0.0
       ctc_pct: null
       pass_rating: 63.0
-      sos: null
+      sos: 11.3
       pff:
         recv: 55.1
         drop: 65.0
         fum: 74.9
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
 - general:
     name: Devaughn Vele
     position: WR
@@ -4964,30 +4172,10 @@ players:
       drop_pct: 4.4
       ctc_pct: 42.9
       pass_rating: 91.0
-      sos: null
+      sos: 6.7
       pff:
         recv: 69.1
         drop: 73.4
         fum: 78.9
     nfl:
-    - pff:
-        recv: null
-      ftn:
-        dyar: null
-        dvoa: null
-      catch_pct: null
-      rr:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yards:
-        total: null
-        all:
-          '2022': null
-          '2023': null
-      yds_rr: null
-      av: null
-      yac_rec: null
-      yptoe: null
-      xfp_rr: null
+    - null
