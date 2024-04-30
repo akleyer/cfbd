@@ -20,7 +20,7 @@ ranges:
     ctc_pct: [0, 100, 1]
     pass_rating: [20, 156.5, 1]
     sos: [-16, 16, 1]
-    pff_recv: [45, 92, 1]
+    pff_recv: [55, 95, 1]
     pff_drop: [25, 92, 1]
     pff_fum: [10, 92, 1]
   nfl_stats:

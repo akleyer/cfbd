@@ -3,6 +3,7 @@ import pprint
 import pandas as pd
 from sklearn.ensemble import HistGradientBoostingRegressor
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, r2_score
 
 class DataLoader:
     def __init__(self, file_name):
@@ -63,9 +64,6 @@ class PlayerNormalizer:
         for player in players_data:
             if player['stats']['nfl'][0]:
                 nfl_stats = self.normalize_nfl_stats(player['stats']['nfl'][0], "nfl_stats")
-                # total_rr = player['stats']['nfl'][0]['rr']['total']
-                # if not total_rr or total_rr < 100:
-                #     continue
             else:
                 nfl_stats = None
             physical_stats = self.normalize_stats(player['physical'], "physical")
@@ -108,15 +106,17 @@ class PlayerDataRefiner:
             avg_speed_accel = self.average([combine_data['40yd'], combine_data['10yd']])
             
             if nfl_data:
-                nfl_avg = self.weighted_average([
-                    (2, nfl_data['yds_rr']),
-                    (1, nfl_data['yac_rec']),
-                    (4, nfl_data['yptoe']),
-                    (6, nfl_data['xfp_rr']),
-                    (8, nfl_data['pff_recv']),
-                    (5, nfl_data['ftn_dyar']),
-                    (3, nfl_data['ftn_dvoa']),
-                ])
+                # nfl_avg = self.weighted_average([
+                #     (2, nfl_data['yds_rr']),
+                #     (1, nfl_data['yac_rec']),
+                #     (4, nfl_data['yptoe']),
+                #     (6, nfl_data['xfp_rr']),
+                #     (8, nfl_data['pff_recv']),
+                #     (5, nfl_data['ftn_dyar']),
+                #     (3, nfl_data['ftn_dvoa']),
+                # ])
+
+                nfl_avg = nfl_data['pff_recv']
             else:
                 nfl_avg = None
 
@@ -143,7 +143,6 @@ class PlayerDataRefiner:
                 "NORM YAC": college_stats_data['yac_rec'],
                 "NORM_YRR": college_stats_data['yds_rr'],
                 "NORM SOS": college_stats_data['sos'],
-                "NFL": nfl_avg
             }
 
             if nfl_data: 
@@ -155,35 +154,35 @@ class PlayerDataRefiner:
                     "NFL_PFF": nfl_data['pff_recv'],
                     "NFL_DYAR": nfl_data['ftn_dyar'],
                     "NFL_DVOA": nfl_data['ftn_dvoa'],
+                    "NFL RR": nfl_data['rr']['total'],
+                    "NFL": nfl_avg
                 })
-            else:
-                refined_data[player].update({
-                    "NFL YPRR": None,
-                    "NFL YAC": None,
-                    "NFL_YPTOE": None,
-                    "NFL_XFPRR": None,
-                    "NFL_PFF": None,
-                    "NFL_DYAR": None,
-                    "NFL_DVOA": None,
-                })
+            # else:
+            #     refined_data[player].update({
+            #         "NFL YPRR": None,
+            #         "NFL YAC": None,
+            #         "NFL_YPTOE": None,
+            #         "NFL_XFPRR": None,
+            #         "NFL_PFF": None,
+            #         "NFL_DYAR": None,
+            #         "NFL_DVOA": None,
+            #         "NFL RR": None
+            #     })
 
         return refined_data
     
 
-def separate_players(refined_player_data):
+def separate_players(refined_player_data, min_routes_run=0):
     """Separate players into two groups based on the availability of NFL stats."""
     players_with_nfl_stats = {}
     players_without_nfl_stats = {}
 
     for player, player_data in refined_player_data.items():
         pprint.pprint(player_data)
-        if player_data['NFL']:
-            print("Has NFL stats")
-            pprint.pprint(player_data['NFL'])
-            players_with_nfl_stats[player] = player_data
+        if 'NFL' in player_data:
+            if player_data['NFL RR'] >= min_routes_run:
+                players_with_nfl_stats[player] = player_data
         else:
-            print("No NFL stats")
-            pprint.pprint(player_data['NFL'])
             players_without_nfl_stats[player] = player_data
 
     return players_with_nfl_stats, players_without_nfl_stats
@@ -194,7 +193,7 @@ def create_train_test_data(players_with_nfl_stats):
 
     X = df[['AVG Phys', 'AVG Spd Accl', 'AVG Explsv', 'Norm RecV', 'AVG Ctch', 'NORM YAC', 'NORM_YRR', 'NORM SOS']]
     y = df['NFL']
-
+    
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     return X_train, X_test, y_train, y_test
@@ -214,7 +213,22 @@ def predict_nfl_stats(model, players_without_nfl_stats):
     predicted_nfl_stats = model.predict(X)
     df['Predicted NFL'] = predicted_nfl_stats
 
+    # Sort the DataFrame by the predicted NFL score in descending order
+    df = df.sort_values('Predicted NFL', ascending=False)
+
+    # Remove any other NFL-related columns
+    df = df[['Predicted NFL']]
+
     return df
+
+def evaluate_model(model, X_test, y_test):
+    """Evaluate the model's performance on the test data."""
+    y_pred = model.predict(X_test)
+    mse = mean_squared_error(y_test, y_pred)
+    r2 = r2_score(y_test, y_pred)
+    print(f"Mean Squared Error (MSE): {mse:.4f}")
+    print(f"R-squared (R2) Score: {r2:.4f}")
+
 
 if __name__ == '__main__':
     norm_range_set = 'norm_ranges.yaml'
@@ -244,7 +258,10 @@ if __name__ == '__main__':
     # Train the regression model
     model = train_regression_model(X_train, y_train)
 
-    # Predict NFL stats for players without NFL stats
+    # Evaluate the model on the test data
+    evaluate_model(model, X_test, y_test)
+
+    # # Predict NFL stats for players without NFL stats
     predicted_nfl_stats = predict_nfl_stats(model, players_without_nfl_stats)
     print("Predicted NFL Stats:")
     print(predicted_nfl_stats)
