@@ -1,9 +1,11 @@
 import yaml
 import pprint
 import pandas as pd
-from sklearn.ensemble import HistGradientBoostingRegressor
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
+import matplotlib.pyplot as plt
 
 class DataLoader:
     def __init__(self, file_name):
@@ -135,14 +137,14 @@ class PlayerDataRefiner:
             ])
 
             refined_data[player] = {
-                'AVG Phys': avg_physical,
-                "AVG Spd Accl": avg_speed_accel,
-                "AVG Explsv": avg_explosive,
-                "Norm RecV": college_stats_data['pff']['recv'],
-                "AVG Ctch": avg_catching,
-                "NORM YAC": college_stats_data['yac_rec'],
-                "NORM_YRR": college_stats_data['yds_rr'],
-                "NORM SOS": college_stats_data['sos'],
+                'AVG Phys': avg_physical if avg_physical else 0.5,
+                "AVG Spd Accl": avg_speed_accel if avg_speed_accel else 0.5,
+                "AVG Explsv": avg_explosive if avg_explosive else 0.5,
+                "Norm RecV": college_stats_data['pff']['recv'] if college_stats_data['pff']['recv'] else 0.5,
+                "AVG Ctch": avg_catching if avg_catching else 0.5,
+                "NORM YAC": college_stats_data['yac_rec'] if college_stats_data['yac_rec'] else 0.5,
+                "NORM_YRR": college_stats_data['yds_rr'] if college_stats_data['yds_rr'] else 0.5,
+                "NORM SOS": college_stats_data['sos'] if college_stats_data['sos'] else 0.5,
             }
 
             if nfl_data: 
@@ -188,46 +190,43 @@ def separate_players(refined_player_data, min_routes_run=0):
     print(len(players_with_nfl_stats))
     return players_with_nfl_stats, players_without_nfl_stats
 
-def create_train_test_data(players_with_nfl_stats):
+def create_train_test_data(players_with_nfl_stats, random_state, degree=2):
     """Create training and testing data for the regression model."""
     df = pd.DataFrame(players_with_nfl_stats).T
 
     X = df[['AVG Phys', 'AVG Spd Accl', 'AVG Explsv', 'Norm RecV', 'AVG Ctch', 'NORM YAC', 'NORM_YRR', 'NORM SOS']]
     y = df['NFL']
 
-    # X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=26)
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=4) # 0.0354/0.2193
+    # Create polynomial features
+    poly = PolynomialFeatures(degree=degree, include_bias=False)
+    X_poly = poly.fit_transform(X)
+
+    X_train, X_test, y_train, y_test = train_test_split(X_poly, y, test_size=0.2, random_state=random_state)
 
     return X_train, X_test, y_train, y_test
 
 def train_regression_model(X_train, y_train):
     """Train the regression model."""
-    model = HistGradientBoostingRegressor(
-        learning_rate=0.5,
-        max_iter=20,
-        max_depth=3,
-        min_samples_leaf=5,
-        max_bins=10,
-        #subsample=1.0,
-        loss="absolute_error"
+    model = LinearRegression(
+        positive=True,
+        fit_intercept=False
     )
     model.fit(X_train, y_train)
     return model
 
-def predict_nfl_stats(model, players_without_nfl_stats):
+def predict_nfl_stats(model, players_without_nfl_stats, poly):
     """Predict NFL stats for players without NFL stats using the regression model."""
     df = pd.DataFrame(players_without_nfl_stats).T
-
     X = df[['AVG Phys', 'AVG Spd Accl', 'AVG Explsv', 'Norm RecV', 'AVG Ctch', 'NORM YAC', 'NORM_YRR', 'NORM SOS']]
 
-    predicted_nfl_stats = model.predict(X)
+    # Apply the same polynomial transformation
+    X_poly = poly.transform(X)
+
+    predicted_nfl_stats = model.predict(X_poly)
     df['Predicted NFL'] = predicted_nfl_stats
 
     # Sort the DataFrame by the predicted NFL score in descending order
     df = df.sort_values('Predicted NFL', ascending=False)
-
-    # Remove any other NFL-related columns
-    df = df[['Predicted NFL']]
 
     return df
 
@@ -235,11 +234,19 @@ def evaluate_model(model, X_test, y_test):
     """Evaluate the model's performance on the test data."""
     y_pred = model.predict(X_test)
     mse = mean_squared_error(y_test, y_pred)
-    print(y_test.values.tolist())
-    print(y_pred)
-    r2 = r2_score(y_test.values.tolist(), y_pred)
+    r2 = r2_score(y_test, y_pred)
     print(f"Mean Squared Error (MSE): {mse:.4f}")
     print(f"R-squared (R2) Score: {r2:.4f}")
+    residuals = y_test - y_pred
+
+    plt.figure(figsize=(10, 6))
+    plt.scatter(y_pred, residuals)
+    plt.title('Residual Plot')
+    plt.xlabel('Predicted Values')
+    plt.ylabel('Residuals')
+    plt.axhline(y=0, color='r', linestyle='--')
+    plt.show()
+
 
 
 if __name__ == '__main__':
@@ -257,26 +264,41 @@ if __name__ == '__main__':
 
     players_with_nfl_stats, players_without_nfl_stats = separate_players(refined_player_data)
 
-    # Print players with NFL stats
-    print("Players with NFL Stats:")
-    pprint.pprint(players_with_nfl_stats)
-    players_with_nfl_stats_df = pd.DataFrame(players_with_nfl_stats).T
-    players_with_nfl_stats_df = players_with_nfl_stats_df[['AVG Phys', 'AVG Spd Accl', 'AVG Explsv', 'Norm RecV', 'AVG Ctch', 'NORM YAC', 'NORM_YRR', 'NORM SOS', 'NFL']]
-    print(players_with_nfl_stats_df)
-    print()
+    # # Print players with NFL stats
+    # print("Players with NFL Stats:")
+    # pprint.pprint(players_with_nfl_stats)
+    # players_with_nfl_stats_df = pd.DataFrame(players_with_nfl_stats).T
+    # players_with_nfl_stats_df = players_with_nfl_stats_df[['AVG Phys', 'AVG Spd Accl', 'AVG Explsv', 'Norm RecV', 'AVG Ctch', 'NORM YAC', 'NORM_YRR', 'NORM SOS', 'NFL']]
+    # print(players_with_nfl_stats_df)
+    # print()
+
+    # for num in range(100):
+    #     print(f"Using random_state: {num}")
+    #     # Create training and testing data
+    #     X_train, X_test, y_train, y_test = create_train_test_data(players_with_nfl_stats, num)
+
+    #     # Train the regression model
+    #     model = train_regression_model(X_train, y_train)
+
+    #     # Evaluate the model on the test data
+    #     evaluate_model(model, X_test, y_test)
+    #     print()
+
+    # # # Predict NFL stats for players without NFL stats
+    # predicted_nfl_stats = predict_nfl_stats(model, players_without_nfl_stats)
+    # # print("Predicted NFL Stats:")
+    # # print(predicted_nfl_stats)
+
+    poly = PolynomialFeatures(degree=2, include_bias=False)
 
     # Create training and testing data
-    X_train, X_test, y_train, y_test = create_train_test_data(players_with_nfl_stats)
-
-    pprint.pprint(X_train)
+    X_train, X_test, y_train, y_test = create_train_test_data(players_with_nfl_stats, random_state=42, degree=2)
 
     # Train the regression model
     model = train_regression_model(X_train, y_train)
 
-    # Evaluate the model on the test data
+    # Evaluate the model
     evaluate_model(model, X_test, y_test)
 
-    # # Predict NFL stats for players without NFL stats
-    predicted_nfl_stats = predict_nfl_stats(model, players_without_nfl_stats)
-    print("Predicted NFL Stats:")
-    print(predicted_nfl_stats)
+    # Predict NFL stats for players without NFL stats
+    predicted_nfl_stats = predict_nfl_stats(model, players_without_nfl_stats, poly)
